@@ -1,0 +1,376 @@
+#description_text{
+position:relative;
+height:auto;
+background:#CAD5E0;
+padding:20px;
+}
+.des_txt{
+min-height:300px;
+height:auto;
+background:#fff;
+display:none;
+}
+.des_txt_inside{
+height:auto;
+width:700px;
+background:#fff;
+padding:20px;
+}
+.podrobno_txt_inside{
+height:auto;
+width:700px;
+background:#fff;
+padding:20px;
+color:#fff;
+display:none;
+}
+#des{
+top:0px;
+left:20px;
+}
+.des_title{
+position:absolute;
+width:200px;
+height:35px;
+background:#0A3F4C;
+cursor:pointer;
+}
+#pod{
+top:0px;
+left:220px;
+}
+#podob{
+top:0px;
+left:420px;
+}
+.podrobno_title,.podobnie_title{
+position:absolute;
+width:200px;
+height:35px;
+cursor:pointer;
+background:#fff;
+border:1px solid #000;
+
+}
+.podrobno_title h3,.podobnie_title h3{
+color:#000;
+}
+.row-fluid .span2a{
+width:20%;
+margin-left:0px;
+}
+
+.row-fluid .span10a{
+width:79%;
+margin-top:40px;
+background:#eee;
+margin-left:10px;
+}
+.cat li:hover, .prod li:hover{
+border:3px solid #391515;
+} 
+.cat li{
+display: inline-block;
+vertical-align: top;
+text-align: left;
+width: 280px;
+margin: 15px 0px 0px 15px;
+background: none repeat scroll 0% 0% #eee;
+border: 1px solid #F2F2F2;
+position: relative;
+height:630px;
+}
+.cat_min li{
+display: inline-block;
+vertical-align: top;
+text-align: left;
+width: 140px;
+margin: 15px 0px 0px 15px;
+background: none repeat scroll 0% 0% #eee;
+border: 1px solid #F2F2F2;
+position: relative;
+height:250px;
+}
+.prod li{
+display: inline-block;
+vertical-align: top;
+text-align: left;
+width: 365px;
+margin: 15px 0px 0px 5px;
+background: none repeat scroll 0% 0% #Fff;
+border: 1px solid #F2F2F2;
+position: relative;
+height:165px;
+cursor:pointer;
+text-align:center;
+}
+.prostir{
+height:50px;
+}
+.corner{
+position:absolute;
+top:-2px;right:-2px;
+}
+.door{
+position:relative;
+margin:0 auto;
+width:230px;
+height:420px;
+background:#eee;
+top:20px;
+}
+.door_min{
+position:relative;
+margin:0 auto;
+width:140px;
+height:250px;
+background:#eee;
+top:20px;
+}
+.cat li:hover .effect2 {
+  position:relative;
+  box-shadow:0 1px 4px rgba(0,0,0,.1), 0 0 40px rgba(0,0,0,.1) inset;
+}
+.cat li:hover .effect2:after {
+	position:absolute; top:50%; bottom:0; left:10px; right:10px; z-index:-1;
+  border-radius:100px / 10px;
+  content:""; box-shadow:0 0 20px rgba(0,0,0,.8);
+}
+
+.cat li:hover .door{
+background:rgba(202,213,224,0.5);
+}
+#new_collection_prostir{
+width:100%;
+height:80px;
+position:relative;
+}
+#new_collection_line{
+height:40px;
+position:relative;
+background:#0a3f4c;
+}
+#line_after_prostir{
+width:700px;
+height:40px;
+position:relative;
+float:left;
+background:url(/img/line_after_prostir.png) no-repeat;
+}
+#history{
+width:auto;
+height:40px;
+position:relative;
+/* float:left; */
+display:inline-block;
+
+padding:10px;
+font-family: 'cleanvel';
+font-size:150%;
+}
+.info_block{
+position:absolute;
+width:100%;
+background:#eee;
+height:155px;
+bottom:0px;
+overflow:hidden;
+}
+.info_block_min{
+position:absolute;
+width:100%;
+background:#eee;
+height:85px;
+bottom:0px;
+overflow:hidden;
+}
+.color_of_door,.feature_of_door{
+padding:4px 10px;
+color:#000;
+}
+.name_of_door,.price_of_door{
+padding:10px;
+color:#000;
+font-size:130%;
+}
+.name_of_door_min,.price_of_door_min{
+padding:10px;
+color:#000;
+font-size:70%;
+}
+.cat li:hover .info_block{
+background:#391515;
+}
+.cat li:hover .name_of_door{
+color:#fff;
+}
+.cat li:hover .color_of_door{
+color:#fff;
+}
+.cat li:hover .feature_of_door {
+color:#fff;
+}
+.cat li:hover .price_of_door{
+color:#fff;
+}
+.cat li .view {
+    float: right;
+    overflow: hidden;
+    width: 29px;
+    height: 29px;
+    background: url(/img/view3.png) no-repeat;
+    text-indent: -9999px;
+    /*margin: -10px 108px 0 0;*/
+    position: absolute;
+    right: 108px;
+    bottom: 10px;
+    transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+}
+   .cat li .view:hover {
+    background-position: 0 -29px;
+}
+
+.cat li:hover .view {
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+.cat li .del_corner {
+    float: right;
+    overflow: hidden;
+    width: 29px;
+    height: 29px;
+    background: url(/img/del_corner.png) no-repeat;
+    text-indent: -9999px;
+    /*margin: -10px 108px 0 0;*/
+    position: absolute;
+    right: 68px;
+    bottom: 10px;
+    transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+}
+.cat li .del_corner:hover {
+background-position: 0 -29px;
+}
+
+.cat li:hover .del_corner {
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+.cat li .add_corner {
+    float: right;
+    overflow: hidden;
+    width: 29px;
+    height: 29px;
+    background: url(/img/info.png) no-repeat;
+    text-indent: -9999px;
+    /*margin: -10px 108px 0 0;*/
+    position: absolute;
+    right: 28px;
+    bottom: 10px;
+    transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+}
+   .cat li .add_corner:hover {
+    background-position: 0 -29px;
+}
+
+.cat li:hover .add_corner {
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+}
+#nodoors{
+width:600px;
+height:100px;
+position:absolute;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+margin:auto;
+}
+.adt{
+padding:20px;
+color:#391515;
+font-size:200%;
+}
+.cat{
+position:relative;
+min-height:625px;
+top:40px;
+}
+#history a{
+text-decoration:none;
+}
+.hystory{
+color:#391515;
+display:inline;
+font-size:120%;
+}
+.hystory:hover{
+color:#0a3f4c;
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+.ipad-landscape { color: blue; } /* your css rules for ipad landscape */
+#left_side{
+position:absolute; 
+z-index: 998;
+}
+.cat li{
+display: inline-block;
+vertical-align: top;
+text-align: left;
+width: 300px;
+margin: 15px 0px 0px 5px;
+background: none repeat scroll 0% 0% #Fff;
+border: 1px solid #F2F2F2;
+position: relative;
+height:500px;
+}
+.row-fluid .span2c{
+width:250px;
+margin-left:0px;
+position:absolute;
+left:0px;
+}
+.row-fluid .span2a{
+width:25%;
+margin-left:0px;
+margin-top:40px;
+}
+.row-fluid .span10c{
+width:100%;
+
+}
+.door{
+height:350px;
+}
+.row-fluid .span10a{
+width:75%;
+margin-left:25%;
+}
+#door_photo{
+width:300px;
+}
+#door_description{
+width:410px;
+}
+#filter_interior{
+background:rgba(150,150,150,0.8);
+}
+}

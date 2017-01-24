@@ -1,0 +1,55 @@
+#door_info_block{
+
+height:auto;
+background:#eee;
+position:relative;
+}
+.door_view{
+display: inline-block;
+vertical-align: top;
+text-align: left;
+width: 365px;
+padding:10px;
+background: none repeat scroll 0% 0% #Fff;
+border: 1px solid #F2F2F2;
+position: relative;
+height:640px;
+}
+.door_description{
+display:inline-block;
+height:auto;
+background:#fff;
+}
+.door_name{
+width:100%;
+background:#eee;
+height:40px;
+position:relative;
+}
+.door_name img{
+position:relative;
+display:inline-block;
+}
+.door_text{
+display:inline-block;
+padding:10px;
+color:#000;
+float:left;
+}
+.door_price{
+background:#000;
+font-weight:bold;
+display:inline-block;
+padding:10px;
+color:#fff;
+float:left;
+}
+.door_price_final{
+position:relative;
+background:#7c0d2d;
+font-weight:bold;
+display:inline-block;
+padding:10px;
+color:#fff;
+
+}

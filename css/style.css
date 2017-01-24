@@ -1,0 +1,188 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	background:url('/img/body-bg.png')repeat;
+	
+}
+.wrapper {
+	padding-right: 0px;
+	padding-left: 0px
+}
+.row_style{
+margin-left:0px;
+}
+h1{
+font-family: 'Anfisa Grotesk';
+font-size: 260%;
+color: #600;
+}
+h3{
+font-family: 'cleanvel';
+font-size: 190%;
+color: #fff;
+}
+h4{
+font-family: 'cleanvel';
+font-size: 140%;
+color: #fff;
+}
+h2{
+font-family: 'cleanvel';
+font-size: 240%;
+color: #fff;
+}
+p{
+font-size: 140%;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+#admin_btn_invisible{ 
+position:absolute;
+right:0px;
+top:0px;
+width:40px;
+height:85px;
+background:none;
+cursor:pointer;
+}
+#admin_btn_invisible:hover  {
+background:url(/img/key3.png);
+opacity:40%;
+background-size:cover;
+}
+.header {
+
+	height: 80px;
+	background: #FFE680;
+	/* background:url('/img/header.png')no-repeat; */
+	background-size:100% 100%;
+	position:relative;
+	z-index:998;
+}
+
+#left_side{
+
+position:relative; 
+z-index: 999;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+
+	width: 100%;
+	position: relative;
+	background:url('/img/content_back.png')repeat-y;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+overflow: hidden;
+}
+.content {
+padding: 80px 0 0 10px;
+}
+.container-fluid{
+padding:0px;
+
+}
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+    width:100%;
+	float: left;
+	margin:0px 30px;	
+	position: relative;
+	background: #B5E3FF;
+}
+.button{
+
+    border-radius: 3px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    border: 1px solid #415E30;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+   /*  background: -moz-linear-gradient(center top , #33cccc, #0099cc) repeat scroll 0% 0% transparent; */
+	background: #0099cc; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #33cccc, #0099cc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#33cccc), color-stop(100%,#0099cc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #33cccc 0%,#0099cc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #33cccc 0%,#0099cc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #33cccc 0%,#0099cc 100%); /* IE10+ */
+background: linear-gradient(135deg,  #33cccc 0%,#0099cc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33cccc', endColorstr='#0099cc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.5) inset;
+color: #FFF;
+font-size: 16px;
+padding: 9px 36px;
+}
+.prostir{
+width:100%;
+height:15px;
+background:none;
+opacity:0.5;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	position:relative;
+	height: 150px;
+	margin-top:-25px;
+	background: #0A3F4C;
+	
+}

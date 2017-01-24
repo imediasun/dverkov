@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: 'cleanveb';
+    src: url('cleanveb.eot');
+    src: url('cleanveb.eot?#iefix') format('embedded-opentype'),
+         url('cleanveb.woff') format('woff'),
+         url('cleanveb.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'cleanvel';
+    src: url('cleanvel.eot');
+    src: url('cleanvel.eot?#iefix') format('embedded-opentype'),
+         url('cleanvel.woff') format('woff'),
+         url('cleanvel.ttf') format('truetype');
+}

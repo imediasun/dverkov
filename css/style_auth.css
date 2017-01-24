@@ -1,0 +1,77 @@
+.login_form{
+position:absolute;
+top:170px;
+}
+.login_form h3{
+padding-left:50px;
+}
+.sub_btn{
+position:absolute;
+right:-50px;
+bottom:-40px;
+}
+.inp_login{
+margin-top:-10px;
+width:290px;
+position:relative;
+left:50px;
+}
+#antique_key{
+position:absolute;
+left:30px;
+top:15px;
+background:url(/img/key5.png);
+width:90px;
+height:130px;
+background-size:100% 100%;
+}
+.auth_form{
+position:relative;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left,  #ffffff 0%, #f2f2f2 7%, #ffffff 14%, #ffffff 37%, #ffffff 62%, #ffffff 86%, #f2f2f2 94%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(7%,#f2f2f2), color-stop(14%,#ffffff), color-stop(37%,#ffffff), color-stop(62%,#ffffff), color-stop(86%,#ffffff), color-stop(94%,#f2f2f2), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #ffffff 0%,#f2f2f2 7%,#ffffff 14%,#ffffff 37%,#ffffff 62%,#ffffff 86%,#f2f2f2 94%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #ffffff 0%,#f2f2f2 7%,#ffffff 14%,#ffffff 37%,#ffffff 62%,#ffffff 86%,#f2f2f2 94%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #ffffff 0%,#f2f2f2 7%,#ffffff 14%,#ffffff 37%,#ffffff 62%,#ffffff 86%,#f2f2f2 94%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to right,  #ffffff 0%,#f2f2f2 7%,#ffffff 14%,#ffffff 37%,#ffffff 62%,#ffffff 86%,#f2f2f2 94%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+width:400px;
+height:400px;
+margin:0 auto;
+-webkit-border-top-left-radius: 30px;
+-webkit-border-top-right-radius: 30px;
+-moz-border-radius-topleft: 30px;
+-moz-border-radius-topright: 30px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.auth_form_bottom{
+position:relative;
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #2989d8 5%, #207cca 94%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(5%,#2989d8), color-stop(94%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#2989d8 5%,#207cca 94%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1e5799 0%,#2989d8 5%,#207cca 94%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1e5799 0%,#2989d8 5%,#207cca 94%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to right,  #1e5799 0%,#2989d8 5%,#207cca 94%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+margin:0 auto;
+height:100px;
+width:400px;
+-webkit-border-bottom-right-radius: 30px;
+-webkit-border-bottom-left-radius: 30px;
+-moz-border-radius-bottomright: 30px;
+-moz-border-radius-bottomleft: 30px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+-webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+}
+body{
+background:#eee;
+}

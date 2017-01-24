@@ -1,0 +1,164 @@
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="/gallery/GammaGallery/css/style_photo_galery.css"/>
+		 <!-- Chang URLs to wherever Video.js files will be hosted -->
+		<link href="/video-js/video-js.css" rel="stylesheet" type="text/css">
+		  <!-- video.js must be in the <head> for older IEs to work. -->
+		<script src="/video-js/video.js"></script>
+		<script>
+		videojs.options.flash.swf = "/video-js/video-js.swf";
+		</script>
+		<!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+  
+
+        <div class="container">
+		
+			<!-- Codrops top bar -->
+            <div class="codrops-top clearfix">
+                <a href="">
+                    <strong>&laquo; Previous Demo: </strong>Heading Set Styling
+                </a>
+                <span class="right">
+                	<a href="">Images by Idleformat</a>
+                    <a href="">
+                        <strong>Back to the Codrops Article</strong>
+                    </a>
+                </span>
+            </div><!--/ Codrops top bar -->
+			
+			<div class="main">
+			<?if(isset($gal_photos )){ 
+			
+			?>	
+			<h1>Добавление в галлерею фотографий</h1>
+			<?
+			}
+			else{
+			?>
+			<h1>Фотографии в галлерее</h1>
+			<?
+			}
+			?>		
+
+					<br>
+					<br>
+					
+				
+				
+				<div>
+					
+					<ul>
+						<?
+						if(isset($gal_photos)){ ?>
+						<form action="/functions_form/add_pictures" method="post">
+						<?
+						$n=0;
+						foreach($gal_photos as $key=>$val){
+						?>
+						<li style="float:left;margin-left:20px;"> 
+							<img height="150px"  src="<?=$val?>">
+							<br>
+							<input type="text" name="descript_photo_<?=$n;?>" style="clear:both;float:left;width:205px" value="">
+							<input type="hidden" name="path_<?=$n;?>" value="<?=$val?>">
+							
+						</li>
+						<?
+						$n++;
+						}
+						?>
+						<input type="submit" style="clear:both;margin-left:20px;float:left;width:205px" value="Принять">
+						</form>
+						<?
+						}
+						else{
+						foreach($photos_ready as $key=>$val){
+						
+						?>
+						<li style="position:relative;width:250px;text-align:center;float:left;margin-left:20px;border:1px solid #000">
+							<img height="150px" style="" src="<?=$val['path']?>" />
+							<div class="del_prod">
+								<input class="gal_index " type="hidden" value="<?=$val['id']?>">
+							</div>
+						</li>
+						<?
+						}
+						}
+						if (isset($gal_video)){
+						$n=0;
+						foreach($gal_video as $key=>$val){
+						?>
+						<li style="position:relative;width:250px;text-align:center;float:left;margin-left:20px;border:1px solid #000">
+							<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="250" height="154"
+								poster=""
+								data-setup="{}">
+								<source src="<?=$val?>" type='' />
+								<track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								<track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that 
+								<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+							</video> 
+							<br>
+							<input type="text" name="descript_photo_<?=$n;?>" style="clear:both;float:left;width:205px" value="">								
+							<div class="del_prod">
+								<input class="gal_index " type="hidden" value="<?=$val['id']?>">
+							</div>
+						</li>
+						<?
+						$n++;
+						}
+						
+						}
+						else{
+						if(isset($video_ready)){
+						foreach($video_ready as $key=>$val){
+						?>
+						
+						<?
+						?>
+						<li style="position:relative;width:250px;text-align:center;float:left;margin-left:20px;border:1px solid #000">
+							
+							<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="250" height="154"
+								  poster=""
+								  data-setup="{}">
+								<source src="<?=$val['path']?>" type='<?=$val['type']?>' />
+								<track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								<track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that 
+								<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+							</video> 
+							<div class="del_prod">
+								<input class="gal_index " type="hidden" value="<?=$val['id']?>">
+							</div>
+						</li>
+						<?
+						}
+						}
+						}
+						?>
+					</ul>
+						
+					<div class="gamma-overlay"></div>
+
+
+				</div>
+			
+			</div><!--/main-->
+		</div>
+<script>		
+$('.del_prod').click(function(){
+var del_index=$(this).find('.gal_index').val()
+$.ajax({
+          type: 'POST',
+		  dataType:'html',
+          url: '/functions_ajax/del_gal/',
+		  data:{del_index:del_index},
+          success: function(data){
+		  alert(data)
+		location.reload()
+		},
+          error:  function(xhr, str){
+            alert('Возникла ошибка: ' + xhr.responseCode);
+            }
+        });
+})		
+</script>	
+

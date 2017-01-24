@@ -1,0 +1,1012 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201505 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2577                
+POS_VISITOR 17094               
+POS_DAY 23770               
+POS_DOMAIN 3442                
+POS_LOGIN 3848                
+POS_ROBOT 4003                
+POS_WORMS 4427                
+POS_EMAILSENDER 4558                
+POS_EMAILRECEIVER 4701                
+POS_SESSION 24617               
+POS_SIDER 24829               
+POS_FILETYPES 4836                
+POS_OS 5047                
+POS_BROWSER 5161                
+POS_SCREENSIZE 5534                
+POS_UNKNOWNREFERER 5608                
+POS_UNKNOWNREFERERBROWSER 6132                
+POS_ORIGIN 6343                
+POS_SEREFERRALS 6487                
+POS_PAGEREFS 6657                
+POS_SEARCHWORDS 7574                
+POS_KEYWORDS 7915                
+POS_MISC 2241                
+POS_ERRORS 8173                
+POS_CLUSTER 3704                
+POS_SIDER_404 8298                
+POS_PLUGIN_geoip_city_maxmind 16088               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150601002711 40 8365 39381340292
+FirstTime 0
+LastTime 20150531164643
+LastUpdate 20150601020800 40 0 39 0 0
+TotalVisits 299                 
+TotalUnique 164                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 164                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 36 36 882888 25 25 682527
+1 10 10 253241 23 23 571727
+2 34 34 776839 25 25 771105
+3 1 1 18521 23 23 592477
+4 0 0 0 145 146 512257
+5 20 20 361458 63 63 2288232
+6 0 0 0 614 614 20830438
+7 42 42 1059830 21 21 700360
+8 120 120 3577465 46 46 1504609
+9 115 115 3283281 26 26 732300
+10 176 176 2802986 42 50 1064946
+11 178 178 4911430 57 57 1545617
+12 288 288 4333442 69 71 1836909
+13 149 150 4178470 48 54 966540
+14 264 264 5267123 85 89 1522333
+15 190 190 3990030 81 87 2527847
+16 137 137 2882909 35 38 1005598
+17 191 191 4915516 31 41 765899
+18 197 197 4719466 161 161 4183858
+19 163 163 4297139 29 29 963524
+20 82 82 2399525 45 45 1327210
+21 43 43 1592931 342 342 11695411
+22 171 171 4095102 381 381 11345967
+23 93 93 2869701 29 40 875094
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+ua 2274 2275 52167492
+ru 152 152 3804817
+us 119 119 3425412
+unknown 91 91 2246102
+ie 24 24 573404
+cn 17 17 565044
+de 9 9 333829
+eu 6 6 148979
+hu 3 3 62311
+fr 2 2 63594
+no 1 1 18521
+ch 2 2 59788
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+mj12bot 1444 46266661 20150529220348 0
+yandex 499 17633894 20150531145207 0
+googlebot 126 3523354 20150531234341 0
+bot[+:,\.\;\/\\-] 51 1211855 20150531060052 0
+crawl 4 81982 20150520122358 0
+surveybot 3 55563 20150528112715 0
+robot 2 37042 20150521120510 0
+netcraft 1 18521 20150507084312 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+eot 47 1112437 0 0
+74 1 32338 0 0
+png 1 518 0 0
+ttf 10 494768 0 0
+woff 147 3910072 0 0
+map 1 3362 0 0
+4 1 24292 0 0
+html 238 4370918 0 0
+Unknown 2255 53520588 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 108
+winxp 1001
+winlong 22
+win2000 7
+winnt 1358
+Unknown 24
+linux 181
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 25
+msie6.0 5
+msie5.01 7
+firefox4.0.1 4
+ibrowse 2
+opera 215
+firefox8.0 1
+firefox18.0 6
+firefox38.0 84
+firefox24.0 7
+firefox31.0 2
+msie8.0 45
+firefox25.0 1
+mozilla 70
+firefox37.0 43
+msie7.0 32
+firefox14.0.1 10
+msie10.0 13
+firefox6.0 2
+netscape4.0 5
+msie9.0 1
+Unknown 11
+firefox3.6.8 24
+firefox35.0 3
+safari 2104
+firefox3.5.7 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+Opera/9.80_(Android;_Opera_Mini/7.5.35199/36.1867;_U;_ru)_Presto/2.12.423_Version/12.16 20150502192616
+C-T_bot 20150527133854
+Other 20150526091141
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/36.2168;_U;_ru)_Presto/2.12.423_Version/12.16 20150530140638
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20150526152312
+mifetcher/1.0 20150511232231
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20150506144931
+Mozilla/4.0 20150506174947
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+C-T_bot 20150527133854
+Other 20150526091141
+mifetcher/1.0 20150511232231
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20150506144931
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 300 300
+From1 0 0
+From2 63 63
+From3 41 41
+From4 2296 2297
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 20 20
+yandex 43 43
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+http://yandex.ua/clck/jsredir 8 8
+http://m.vk.com/away.php 7 7
+http://link.2gis.ru/E21B8062/grym/20150501/odessa/7007d0006b0b9 7 7
+http://maps.2gis.ru 6 6
+http://vk.com/illyichevsk 3 3
+http://m.vk.com/illyichevsk 2 2
+http://vk.com/away.php 2 2
+http://forumodua.com/private.php 2 2
+http://spravkus.com/ua14/ilichevsk/org1791122 1 1
+http://link.2gis.ru/1.1/387990F6/webapi/20150501/project14/1970853118666505/2gis.ru/1437hu55G4A9JHH71c2euvge8B5A14A71f2g46140JG47GG3272718G41B556750GHg8 1 1
+http://link.2gis.ru/2558D58D/v4-iphone/20150501/odessa/1970853118666505 1 1
+http://ilhome.org/forum/showthread.php/15628-%D0%94%D0%B2%D0%B5%D1%80%D0%B8-(%D0%B2%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D0%BC%D0%B5%D0%B6%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B5)/page9 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%be%d0%b4%d0%b5%d1%81%d1%81%d0%b0+%d1%8d%d0%ba%d1%81%d0%bf%d0%be%d1%81%d1%82%d1%80%d0%be%d0%b9+%d1%80%d0%b5%d0%b6%d0%b8%d0%bc+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b+1+%d0%bc%d0%b0%d1%8f 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+%d0%bc%d0%b0%d1%8f 1
+%d1%80%d0%b5%d0%b6%d0%b8%d0%bc 1
+%d1%80%d0%b0%d0%b1%d0%be%d1%82%d1%8b 1
+%d1%8d%d0%ba%d1%81%d0%bf%d0%be%d1%81%d1%82%d1%80%d0%be%d0%b9 1
+%d0%be%d0%b4%d0%b5%d1%81%d1%81%d0%b0 1
+1 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+103 31 0
+302 94 1661406
+400 2 2358
+404 240 320149
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 179
+/js/lib/fckeditor/editor/fckeditor.html 1 -
+/news/fckeditor/editor/fckeditor.html 1 -
+/administrator/fckeditor1/editor/fckeditor.html 1 -
+/system/cms/ 1 -
+/administrator/php/editor/fckeditor.html 1 -
+/static/scripts/ajax/FCKeditor/editor/fckeditor.html 1 -
+/admin/templates/editor/fckeditor.html 1 -
+/library/fckeditor/editor/fckeditor.html 1 -
+/img/6slide.jpg 1 -
+/admin.php 1 -
+/login/editors/fckeditor/editor/fckeditor.html 1 -
+/site/modules/fckeditor/fckeditor.html 1 -
+/webmail/fckeditor/editor/fckeditor.html 1 -
+/admin/actualites4/editor/fckeditor.html 1 -
+/img/interior/walls_modern_1_thumb.png 6 http://dverkov.com.ua/interior
+/wp-content/plugins/chenpress/FCKeditor/editor/fckeditor.html 1 -
+/typo3/index.php 1 -
+/novice/FCKeditor/editor/fckeditor.html 1 -
+/mailing/tools/fckeditor/editor/fckeditor.html 1 -
+/admin/includes/rte/editor/fckeditor.html 1 -
+/resources/fckeditor/editor/fckeditor.html 1 -
+/admin/editor/fckeditor.html 1 -
+/fckeditor1/editor/fckeditor.html 1 -
+/admin/fckeditor_ap/editor/fckeditor.html 1 -
+/fckeditor/jscripts/editor/fckeditor.html 1 -
+/gestion/FCKeditor/editor/fckeditor.html 1 -
+/manage/editor/fckeditor.html 1 -
+/community/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/php/fckeditor/editor/fckeditor.html 1 -
+/administrator/editors/fckeditor/fckeditor.html 1 -
+/edit/editor/fckeditor.html 1 -
+/extensions/FCKeditor/fckeditor/editor/fckeditor.html 1 -
+/blogscript/fckeditor/editor/fckeditor.html 1 -
+/FCKeditor/editor/fckeditor.html 1 -
+/blog/admin/FCKeditor/editor/fckeditor.html 1 -
+/img/sprinkles.png 6 http://dverkov.com.ua/css/style_admin.css
+/resorce/admin/article/FCKeditor/editor/fckeditor.html 1 -
+//code.jquery.com/jquery-1.11.0.min.js 1 -
+/public_html/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/pub/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/admin/produtos/fckeditor/editor/fckeditor.html 1 -
+/wp-login.php 1 -
+/js/fckeditor/editor/fckeditor.html 1 -
+/admin/login/ 1 -
+/pebble/FCKeditor/editor/fckeditor.html 1 -
+//code.jquery.com/jquery-migrate-1.2.1.min.js 1 -
+/engine/print.php 1 -
+/Manage/Include/fckeditor/editor/fckeditor.html 1 -
+/sitetree/ 1 -
+/img/content_back.png 1 -
+/system/fckeditor/editor/fckeditor.html 1 -
+/common/htmlarea/editor/fckeditor.html 1 -
+/jsincludes/FCKeditor/editor/fckeditor.html 1 -
+/WebAdmin/FCKeditor/editor/fckeditor.html 1 -
+/new2/admin/js/fckeditor/editor/fckeditor.html 1 -
+/site/mambots/editors/fckeditor/fckeditor.html 1 -
+/Backend/FCKeditor/editor/fckeditor.html 1 -
+/admin/system/editor/fckeditor/editor/fckeditor.html 1 -
+/HTMLEditor/editor/fckeditor.html 1 -
+/admin/fck/editor/fckeditor.html 1 -
+/admin/fckeditor/editor/fckeditor.html 1 -
+/admin/editors/fckeditor/editor/fckeditor.html 1 -
+/wp-admin 1 -
+/cart/admin/htmleditor/editor/fckeditor.html 1 -
+/sites/all/libraries/fckeditor/fckeditor.html 1 -
+/fckeditor_ap/editor/fckeditor.html 1 -
+/data/fckeditor/editor/fckeditor.html 1 -
+/img/3slide.jpg 1 -
+/html/js/editor/fckeditor/editor/fckeditor.html 1 -
+/cms/fckeditor/editor/fckeditor.html 1 -
+/multicms/packages/fckeditor/editor/fckeditor.html 1 -
+/fckphp/editor/fckeditor.html 1 -
+/gallery/fckeditor/editor/fckeditor.html 1 -
+/fronteiranorte/editor/editor/fckeditor.html 1 -
+/adminweb/util/fckeditor/editor/fckeditor.html 1 -
+/editor/editor/fckeditor.html 1 -
+/administrator/index.php 1 -
+/path/fckeditor/editor/fckeditor.html 1 -
+/public/js/fckeditor/fckeditor.html 1 -
+/administrator/fckeditor/editor/fckeditor.html 1 -
+/paginas/fckeditor/editor/fckeditor.html 1 -
+/CFIDE/scripts/ajax/FCKeditor/editor/fckeditor.html 1 -
+/V2/utils/WYSEditor/editor/fckeditor.html 1 -
+/editors/fckeditor/editor/fckeditor.html 1 -
+/library/editor/fckeditor/editor/fckeditor.html 1 -
+/bitrix/admin/ 1 -
+/web-local/fak/rj/admin/FCKeditor/editor/fckeditor.html 1 -
+/site/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/img/header.png 1 -
+/img/2slide.jpg 1 -
+/modx/manager/ 1 -
+/mods/ckeditor/fckeditor.html 1 -
+/javascripts/fckeditor/editor/fckeditor.html 2 -
+/main/inc/lib/fckeditor/editor/fckeditor.html 1 -
+/js/krte/editor/fckeditor.html 1 -
+/fhadmin/lib/fckeditor/editor/fckeditor.html 1 -
+/includes/fckeditor/editor/fckeditor.html 1 -
+/manager/ 1 -
+/img/interior/battroom1_plintus_thumb.png 6 http://dverkov.com.ua/interior
+/lists/admin/FCKeditor/editor/fckeditor.html 1 -
+/html/proudphufah/admin/fckeditor/editor/fckeditor.html 1 -
+/img/interior/walls_modern_2_thumb.png 6 http://dverkov.com.ua/interior
+/img/interior/walls_modern_3_thumb.png 6 http://dverkov.com.ua/interior
+/wp-admin/ 1 -
+/scripts/fckeditor/editor/fckeditor.html 1 -
+/db/include/class/fckeditor/editor/fckeditor.html 1 -
+/classifieds/submit/FCKeditor/editor/fckeditor.html 1 -
+/outils/fckeditor/editor/fckeditor.html 1 -
+/cgi-bin/mt/mt-check.cgi 1 -
+/login_form 1 -
+/app/webroot/js/fckeditor/editor/fckeditor.html 1 -
+/panel/FCKeditor/editor/fckeditor.html 1 -
+/_engine/fckeditor/editor/fckeditor.html 1 -
+/util/FCKeditor/editor/fckeditor.html 1 -
+/assets/includes/fckeditor/editor/fckeditor.html 1 -
+/include/js/fckeditor/editor/fckeditor.html 1 -
+/rus/view-in-interior/68.html 11 -
+/cms/HTMLEditor/editor/fckeditor.html 1 -
+/wp-content/plugins/wp-insert/fckeditor/editor/fckeditor.html 1 -
+/wspro/html/js/editor/fckeditor/editor/fckeditor.html 1 -
+/admin/view/javascript/fckeditor/editor/fckeditor.html 1 -
+/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/img/glyphicons-halflings-white.png 1 -
+/editor/fckeditor.html 1 -
+/register/fckeditor/editor/fckeditor.html 1 -
+/webyep-system/programm/opt/fckeditor/editor/fckeditor.html 1 -
+/joomla/Medkorp/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/m/dveri/2 3 -
+/include/fckeditor/editor/fckeditor.html 1 -
+/includes/editors/fckeditor/editor/fckeditor.html 1 -
+/artsconnect/newsite/mambots/editors/fckeditor/editor/fckeditor.html 1 -
+/administrator 1 -
+/portal/html/js/editor/fckeditor/editor/fckeditor.html 1 -
+/diendan/media/js/fckeditor/editor/fckeditor.html 1 -
+/gateweb/scripts/fckeditor/editor/fckeditor.html 1 -
+/img/1slide.jpg 1 -
+//img/interior/%D0%B0%D0%B4%D1%89%D1%89%D0%BA1.png 1 -
+/manage/fckeditor/editor/fckeditor.html 1 -
+/news_script/fckeditor/editor/fckeditor.html 1 -
+/admin/ 18 -
+/oa/fckeditor/editor/fckeditor.html 1 -
+//img/interior/ 1 -
+/plugins/HTMLeditor/FCKeditor/editor/fckeditor.html 1 -
+/cms/kernel/admin.php 1 -
+/core/php/fckeditor/editor/fckeditor.html 1 -
+/asetrack/includes/fckeditor/editor/fckeditor.html 1 -
+/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/netcat/ 1 -
+/img/4slide.jpg 1 -
+/login.php 1 -
+/site/fckeditor/editor/fckeditor.html 1 -
+/modules/fckeditor/fckeditor/editor/fckeditor.html 1 -
+/admin/panel/fckeditor/fckeditor.html 1 -
+/img/5slide.jpg 1 -
+/admin/templates/fckeditor/editor/fckeditor.html 2 -
+/img/interior/walls_modern_1.png 5 http://dverkov.com.ua/interior
+/AWT/editor/fckeditor.html 1 -
+/wp-content/plugins/fckeditor-for-wordpress-plugin/fckeditor/editor/fckeditor.html 1 -
+/img/glyphicons-halflings.png 1 -
+/assets/js/fckeditor/editor/fckeditor.html 1 -
+//img/interior/floor9.png 1 -
+/inurl-/fckeditor/editor/fckeditor.html 1 -
+/public/fckeditor/editor/fckeditor.html 1 -
+/bbadmin/editors/fckeditor/editor/fckeditor.html 1 -
+/admin/classes/components/formattedTextArea/fckeditor/editor/fckeditor.html 1 -
+/modules/fckeditor/editor/fckeditor.html 1 -
+/Popover%20requires%20tooltip.js 1 -
+/v1/plugins/editors/fckeditor/editor/fckeditor.html 1 -
+/member/login/ 1 -
+/control/editor/fckeditor.html 1 -
+/admin 2 -
+/public/js/fckeditor/editor/fckeditor.html 1 -
+/admin/fckeditor1/editor/fckeditor.html 1 -
+/include/editor/fckeditor.html 1 -
+/textpattern/ 1 -
+/webmanage/fckeditor/editor/fckeditor.html 1 -
+/moflosjmupg.html 1 -
+/fck/editor/fckeditor.html 1 -
+/dhtml_editor/editor/fckeditor.html 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 28
+ua_odessa_17 0 1553 0 0
+unknown 0 954 0 0
+us_lafayette_la 0 44 0 0
+us_sunnyvale_ca 0 32 0 0
+us_wilmington_de 0 15 0 0
+ru_perm_58 0 14 0 0
+ru_moscow_48 0 12 0 0
+us_sterling_va 0 10 0 0
+us_mountain%20view_ca 0 8 0 0
+ru_yekaterinburg_71 0 6 0 0
+ru_novosibirsk_53 0 1 0 0
+de_kiez_12 0 2 0 0
+ua_kharkov_07 0 1 0 0
+ua_kiev_13 0 2 0 0
+cn_shanghai_23 0 1 0 0
+ru_solnechnogorsk_47 0 4 0 0
+cn_guangzhou_30 0 2 0 0
+ua_krivoy%20rog_08 0 2 0 0
+ru_kazan_73 0 2 0 0
+ru_tobolsk_78 0 3 0 0
+hu_budapest_05 0 3 0 0
+us_san%20bruno_ca 0 6 0 0
+ru_tagil_73 0 2 0 0
+ie_dublin_07 0 6 0 0
+ua_dnepropetrovsk_04 0 2 0 0
+us_washington_dc 0 4 0 0
+ua_razdelnaya_17 0 5 0 0
+ru_izhevsk_80 0 5 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 164
+83.142.111.223 383 383 7464254 20150530165151
+83.142.111.254 275 275 5360401 20150530152955
+83.142.111.211 200 200 4914274 20150525093400
+46.119.68.116 167 167 2647493 20150528222006
+83.142.111.165 126 126 4249386 20150531130808
+91.197.19.197 101 101 2692205 20150523200956
+195.93.190.73 92 92 668327 20150515124538
+91.197.18.85 63 63 1870400 20150520112644
+91.206.33.233 62 62 791643 20150519101523
+212.16.7.35 62 62 1746786 20150526084215
+112.65.193.15 1 1 26275 20150506175101
+180.153.201.217 1 1 30640 20150506170736
+176.193.204.242 1 1 39486 20150519142248
+178.150.141.129 1 1 33250 20150528133626
+188.163.70.174 2 2 49161 20150508171136
+95.24.62.205 4 4 96906 20150526074754
+95.220.88.78 2 2 51977 20150525152654
+217.69.133.169 5 5 92605 20150526024129
+69.58.178.58 10 10 204646 20150515204050
+176.14.66.149 2 2 73068 20150525152712
+176.193.92.155 1 1 18521 20150526091141
+178.136.215.124 32 32 1127934 20150510235115
+111.206.36.133 1 1 20631 20150506171251
+128.75.247.8 1 1 18240 20150526150607
+46.211.130.90 2 2 49161 20150508103224
+91.192.136.250 7 7 174950 20150519111738
+83.142.111.200 30 30 783202 20150525224340
+212.90.168.158 2 2 53195 20150522121202
+176.57.50.168 21 21 387246 20150505193350
+83.142.111.251 1 1 18521 20150503224455
+193.8.201.1 2 2 59788 20150518124900
+95.28.2.245 1 1 24139 20150526150607
+178.158.215.8 14 14 745939 20150525215510
+83.142.111.157 4 4 98322 20150502213133
+176.195.201.119 2 2 56303 20150525152644
+46.119.68.150 4 4 211135 20150502204754
+111.206.36.132 1 1 19157 20150506171258
+213.191.29.16 4 4 92580 20150526231421
+37.73.196.63 1 1 18521 20150519121952
+194.54.162.38 4 4 92951 20150527120656
+83.142.111.227 29 29 783522 20150526225257
+83.142.111.242 31 31 710268 20150514003650
+91.192.139.33 9 9 391164 20150526152429
+5.9.151.10 1 1 31776 20150513091250
+178.150.203.32 2 2 54779 20150520123735
+46.211.187.76 6 6 151193 20150519112501
+192.102.7.36 3 3 62311 20150506133512
+176.8.130.168 8 8 204537 20150510134732
+83.142.111.231 6 6 194631 20150525122901
+176.14.137.15 4 4 86681 20150526231409
+66.249.93.223 2 2 49797 20150511164824
+31.44.11.235 2 2 43790 20150510050549
+176.14.221.188 8 8 191136 20150526231422
+95.24.38.248 1 1 28465 20150526150606
+91.192.136.218 2 2 49161 20150529221038
+95.24.57.254 1 1 18240 20150525160713
+77.122.160.41 2 2 57946 20150501111444
+176.195.54.160 1 1 28465 20150525160712
+144.76.119.75 2 2 0 20150525221112
+89.234.68.87 6 6 143351 20150526180645
+180.153.163.211 1 1 123241 20150506170744
+111.206.36.139 1 1 123241 20150506170748
+83.142.111.235 5 5 111448 20150515135936
+199.19.249.196 32 32 878973 20150526152718
+66.249.81.202 3 3 67682 20150520095022
+119.147.146.189 1 1 18521 20150506171011
+180.153.201.214 1 1 18521 20150506172102
+188.226.14.16 2 2 43790 20150516194727
+83.142.111.248 21 21 657592 20150511194106
+77.51.194.66 9 9 228968 20150519220236
+5.228.61.51 2 2 46359 20150525050216
+83.142.111.161 4 4 86620 20150504085554
+89.234.68.104 6 6 143351 20150526170656
+141.0.13.108 5 5 296787 20150530140638
+42.62.74.35 1 1 18521 20150511232231
+87.240.182.182 1 1 20631 20150526152312
+83.142.111.224 13 13 379986 20150503193551
+213.231.19.79 29 29 840962 20150506110110
+95.79.108.192 1 1 123241 20150503223258
+176.14.209.201 1 1 45230 20150526150608
+94.153.162.34 3 3 74430 20150526154430
+46.119.69.211 17 17 783003 20150519190320
+176.195.185.185 1 1 18521 20150508005833
+66.249.81.196 1 1 18521 20150511181941
+91.219.48.35 4 4 100594 20150521181150
+91.206.33.237 22 22 564392 20150527133812
+208.90.57.196 6 6 112020 20150518180157
+178.140.125.5 10 10 229038 20150526074811
+72.2.237.42 44 44 1594584 20150526152741
+83.142.111.204 46 46 1324907 20150526191127
+188.163.71.14 1 1 18521 20150504102931
+2.92.4.108 7 7 122663 20150515054203
+37.58.71.199 2 2 54892 20150519111515
+111.206.36.136 1 1 18482 20150506171306
+83.142.111.172 1 1 18521 20150503213055
+83.142.106.128 29 30 585901 20150525135904
+145.255.172.130 1 1 25269 20150521223557
+176.195.205.245 4 4 92580 20150526074809
+83.142.111.174 31 31 725197 20150516112755
+66.249.81.199 1 1 18521 20150517104136
+77.41.42.226 4 4 113671 20150526231428
+176.212.75.126 1 1 38501 20150523204237
+91.197.19.212 13 13 413187 20150525154728
+52.28.10.50 15 15 388900 20150502231301
+5.44.173.41 2 2 43790 20150521161513
+195.93.190.171 1 1 18521 20150507230531
+101.226.65.107 1 1 19160 20150506172253
+101.226.33.201 1 1 20631 20150506172213
+5.76.236.20 7 7 209995 20150510090029
+37.73.249.52 2 2 49161 20150506194345
+193.106.58.8 2 2 53195 20150522011525
+212.15.151.123 5 5 184119 20150516192047
+83.71.247.38 6 6 143351 20150518160254
+180.153.206.21 1 1 32706 20150506172302
+176.193.144.147 4 4 96906 20150526231406
+83.142.111.205 33 33 824854 20150502174201
+83.142.111.196 15 15 379648 20150514163249
+195.66.217.37 2 2 49161 20150528102316
+212.15.141.223 55 55 599246 20150515123646
+91.225.171.193 22 22 497990 20150518152819
+83.142.104.61 5 5 221563 20150513082952
+212.15.152.94 7 7 143102 20150506175426
+195.78.247.114 18 18 470445 20150528102420
+83.142.111.169 45 45 1083071 20150528130733
+176.14.214.247 2 2 54965 20150525152710
+94.23.11.5 2 2 63594 20150516132749
+89.234.68.89 6 6 143351 20150518193219
+87.117.189.17 2 2 43790 20150512202849
+91.197.19.208 2 2 49161 20150503215418
+38.81.65.42 4 4 73247 20150526153603
+87.240.182.163 1 1 18521 20150502231232
+176.77.111.36 4 4 113671 20150526074809
+92.39.221.44 5 5 74562 20150531120312
+178.72.71.79 3 3 62311 20150510185723
+109.198.112.138 2 2 43790 20150529123610
+134.19.130.26 5 5 74562 20150520052718
+37.204.75.217 1 1 45230 20150525160713
+94.179.29.253 2 2 54779 20150515124221
+180.153.206.16 1 1 18482 20150506171308
+185.5.248.245 1 1 18521 20150515030756
+79.140.6.23 15 15 320250 20150502162714
+46.119.68.199 17 17 420851 20150518191538
+101.226.102.97 1 1 19157 20150506171259
+111.206.36.4 1 1 19157 20150506174947
+66.249.93.217 1 1 18521 20150511164901
+212.33.255.53 14 14 259294 20150527133855
+46.181.200.121 2 2 43790 20150525185808
+83.142.111.212 27 27 835191 20150526091222
+178.49.154.11 2 2 56536 20150517210152
+88.135.124.23 2 2 62416 20150508172544
+95.28.31.10 1 1 24139 20150525160713
+188.40.35.183 2 2 37042 20150506144931
+46.211.144.223 12 12 315888 20150518185453
+82.145.221.222 1 1 18521 20150502192616
+176.98.48.10 2 2 81722 20150520164200
+91.215.56.250 3 3 125146 20150507155748
+119.147.146.193 1 1 18521 20150508103208
+188.163.71.196 49 49 1252055 20150525174938
+188.163.68.181 27 27 718553 20150506175752
+91.231.229.62 1 1 38486 20150526082107
+5.228.36.159 2 2 54254 20150526150608
+91.231.229.17 1 1 38486 20150524185155
+188.163.68.75 12 12 338731 20150531164643
+195.78.247.17 2 2 76121 20150501115714
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150501 40 40 1147380 5
+20150502 83 83 2393403 10
+20150503 23 23 768234 7
+20150504 68 68 1740911 8
+20150505 31 31 659621 6
+20150506 101 101 2736046 25
+20150507 38 38 931558 6
+20150508 55 55 1152753 7
+20150509 4 4 160283 2
+20150510 53 53 1771808 6
+20150511 67 67 1481421 13
+20150512 51 51 1269625 3
+20150513 37 37 958632 7
+20150514 272 272 6242054 12
+20150515 209 209 2631296 16
+20150516 57 57 1442001 5
+20150517 32 32 1076061 5
+20150518 138 138 3226338 15
+20150519 209 209 5338143 20
+20150520 65 65 2089927 10
+20150521 32 32 838253 7
+20150522 74 74 1194030 7
+20150523 131 131 3015544 4
+20150524 1 1 38486 1
+20150525 207 208 4888974 27
+20150526 197 197 5728131 33
+20150527 67 67 1757486 7
+20150528 233 233 4164306 10
+20150529 29 29 864509 6
+20150530 73 73 1125942 5
+20150531 23 23 636137 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 26
+2mn-5mn 19
+30s-2mn 26
+15mn-30mn 20
+0s-30s 176
+30mn-1h 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 289
+/functions_ajax/get_walls 289 32272 6 10
+/functions_ajax/get_floor 248 8025 0 3
+/ 234 4278351 152 52
+/interior 170 15964240 44 31
+/fonts/cleanvel.woff 134 3768720 1 29
+/functions_filter/form_filter 120 309968 1 1
+/functions_ajax/get_plintus 120 3988 0 6
+/dveri/1 106 2186886 6 4
+/dveri/2 78 1504542 4 4
+/catalog/index 54 3926752 0 8
+/door/564 1 26610 0 0
+/door/690/690 1 24031 0 0
+/dveri/1/67/24 4 100644 0 0
+/admin/pages/5 1 13152 0 0
+//door/291/0/1536/0/0/0/1536 1 32808 0 0
+/door/715 1 24188 0 0
+/door/630 1 25122 0 0
+/door/281 1 32453 0 0
+/door/83 8 266032 0 1
+/door/744 1 26554 0 0
+/dveri/ 1 17510 1 0
+/dveri/1/70/44 2 48966 0 0
+/door/653 1 33000 0 0
+/dveri/1/63/33 4 120668 0 1
+/door/662/662 2 52052 0 0
+/dveri/2/64 14 408492 1 1
+/admin/dveri_edit/1/62 1 29941 0 0
+/door/292 1 27337 0 0
+/door/618 1 28102 0 0
+/door/95/95 1 33273 0 0
+/pages/page/11 4 112808 0 1
+/door/259 1 32313 0 0
+/door/724 3 82167 0 1
+/door/678 1 26037 0 0
+/door/569/569 1 27406 0 0
+/door/279/279 1 31833 0 0
+/door/99 1 32946 0 0
+/dveri/1/69/39 6 144342 0 2
+/dveri/1/68/46 10 256850 0 0
+/door/177/177 2 76214 0 0
+/door/276/276 1 31788 0 0
+/dveri/1/72/52 9 214164 0 0
+/door/295 2 55916 0 1
+/dveri/2/56 40 765840 1 2
+/door/683/683 1 24001 0 0
+/dveri/1/68/47 5 104490 0 0
+/door/246/246 1 28338 0 0
+/fonts/cleanveb.eot 13 359684 0 2
+//door/268/0/1536/0/0/0/1536 1 33133 0 0
+//door/198/0/5123/9/8/7/6289 1 27149 0 0
+/door/233/233 2 56676 0 0
+/door/274 1 32770 0 0
+/door/116 2 75664 0 0
+/door/570 1 27412 0 0
+/pages/page/18 20 1519700 0 4
+/door/283/283 3 98367 0 0
+/door/618/618 1 28093 0 0
+/door/423 1 39803 0 0
+/door/318/ 2 56536 2 2
+/door/255 1 32313 0 0
+/door/249 1 32313 0 0
+/dveri/1/66/23 11 384329 0 0
+/door/464 1 38501 1 1
+/door/168/168 1 32959 0 0
+/door/672 3 78084 0 0
+/door/246 3 85041 0 0
+/door/175 1 38462 0 0
+/door/222 4 113368 0 0
+/pages/page/2 22 416658 0 3
+/dveri/1/63 26 486070 2 2
+/dveri/1/68 11 206151 0 0
+/pages/page/17 4 99972 0 1
+/door/241/241 1 28338 0 0
+/door/109 1 33253 0 0
+/dveri/4 16 287888 1 1
+/door/484/484 2 78912 0 0
+/admin/door_edit/81/1/62 1 51995 0 0
+/door/681 1 24049 0 1
+/dveri/1/64/49 7 129570 0 0
+/door/118/118 2 75646 0 0
+/door/637 1 32995 0 0
+/dveri/2/63 14 414596 0 0
+/door/82 1 33285 0 0
+/dveri/1/69 11 216986 0 0
+/door/269 1 31797 1 0
+/door/137 2 76272 0 0
+/dveri/1/62/19 14 720048 2 1
+// 1 18521 0 0
+/dveri/1/67/25 5 113585 0 0
+//door/83/0/1944/8/0/0/2538 1 33254 0 0
+/door/208 1 27121 0 0
+/dveri/1/69/41 2 41942 0 0
+/door/313 1 27341 0 0
+/dveri/2/56/50 15 370185 0 2
+/door/686/686 1 24031 0 0
+/door/290 3 96438 1 1
+/door/617 2 56204 0 0
+/door/84 1 32961 0 0
+//door/459/0/2524/10/13/9/3998 1 39834 0 0
+/door/247 1 28347 0 0
+/door/436 1 39486 1 1
+/door/687/687 1 24088 0 0
+/door/271 1 31797 0 1
+/door/198 6 162762 5 2
+/door/219/219 2 57252 0 2
+/door/743/743 1 26562 0 0
+/door/465 1 39825 0 0
+/door/212/212 1 27803 0 0
+/admin/dveri_edit/1/63 1 27091 0 0
+/door/623/623 1 28168 0 0
+/door/167 1 33287 0 0
+/door/280 2 64228 0 0
+/door/227/227 1 28338 0 0
+/door/679 8 193112 7 2
+/dveri/1/67/27 9 160866 0 0
+/door/177 2 76232 0 0
+/door/271/271 1 31788 0 0
+/dveri/1/66/22 15 490590 2 3
+/door/441 2 79572 0 0
+/pages/page/10 4 88020 0 0
+/door/364/364 1 52846 0 0
+/dveri/1/64/36 2 39416 0 0
+/admin/dveri_edit/1/62/18 1 35238 0 0
+/door/680 1 24079 0 0
+/door/216 1 28756 0 0
+/door/422 1 39460 0 0
+/door/695 1 24085 0 0
+/fonts/cleanveb.woff 1 30712 0 0
+/dveri/1/67 13 255424 0 0
+/dveri/1/70/43 4 90824 0 0
+/door/684 1 24073 0 0
+/dveri/3/72 8 142088 0 0
+/dveri/1/62/32 6 131844 0 0
+/door/479 1 39425 1 0
+/pages/page/8 24 606456 3 14
+/dveri/3/49 12 250728 0 1
+//door/277/0/1331/15/0/0/1613 5 160700 4 4
+/dveri/1/72/54 9 166338 2 3
+//door/168/0/2975/7/5/0/3805 1 32982 0 0
+/pages/page/3 21 636825 4 6
+//door/556/0/1280/17/0/0/1508 3 105765 1 3
+/door/223 1 28342 0 0
+/dveri/2/56/48 27 859599 1 2
+/dveri/1/63/20 15 1131960 1 1
+/dveri/1/70 9 176805 0 0
+/door/302/302 1 27698 0 1
+/door/728 1 26687 0 0
+/pages/page/16 7 125188 0 2
+/pages/page/4 7 124432 0 1
+/door/268 1 33136 0 0
+/door/660/660 1 26020 0 0
+/dveri/2/62 17 302039 0 1
+/door/649 1 33000 0 0
+/dveri/1/62/18 5 116080 0 0
+/door/314 1 27681 0 0
+/door/651 1 33000 1 0
+//door/83/0/1944/0/0/0/1944 1 33251 0 0
+/fonts/intro.eot 13 168155 0 0
+/door/223/223 1 28333 0 0
+/door/298 1 26624 0 0
+/dveri/1/70/42 2 44024 0 0
+/admin/dveri_edit/1/63/20 1 108225 0 0
+/slick/slick.css.map 1 3362 0 0
+/door/556 1 35255 0 0
+/door/166 1 33273 0 0
+/door/717 1 27394 0 0
+/door/308 2 54734 0 1
+/door/663 1 26029 0 0
+/dveri/1/64 18 363222 0 0
+//door/83/0/1944/8/10/5/3246 2 66552 1 1
+/door/416 1 51082 1 0
+/door/629/629 2 56374 0 0
+/door/486 2 78890 0 0
+/dveri/1/62/30 4 113160 0 0
+/door/459 3 119436 0 0
+/door/318 1 28268 0 0
+/fonts/cleanvel.ttf 8 406816 0 3
+/door/83/83 2 66490 0 0
+/door/140 2 76972 2 2
+/dveri/1/66 30 574800 1 2
+/door/215 2 56588 0 0
+/dveri/1/67/26 6 165846 0 0
+/door/284 2 65612 0 1
+/pages/page/15 4 71512 0 0
+/door/336 1 27254 0 0
+/door/449 1 39786 0 0
+/door/287/287 1 32141 0 0
+/door/701 1 24283 0 0
+/admin/dveri_edit/1 4 135748 0 0
+/door/441/441 2 79554 0 0
+/door/583 1 26616 0 0
+/door/320 1 27666 0 0
+/door/692/692 1 24067 0 0
+/door/701/701 1 24274 0 0
+/pages/page/9 12 381312 4 1
+/dveri/3/71 6 153834 0 0
+/door/727 2 54788 0 0
+/dveri/1/64/34 5 104460 0 0
+/door/655 1 26029 0 0
+/slick/fonts/slick.woff 5 6900 0 1
+/door/228 1 28347 0 0
+/door/262/262 1 32304 0 0
+/dveri/1/69/38 5 123535 0 1
+/dveri/1/72 22 421454 4 3
+/pages/page/5 8 219688 0 1
+/door/635 2 52958 0 0
+/door/292/292 1 27328 0 0
+/door/91 1 33250 1 1
+/door/457/457 1 39779 0 0
+/door/134 1 37780 0 0
+/door/250 1 32313 0 0
+/door/624 1 28239 0 0
+/pages/page/13 3 53331 0 0
+/door/85 1 33284 0 0
+//door/457/0/2322/10/13/0/3493 1 39802 0 1
+//door/697/0/1/0/0/0/1 1 23919 0 0
+/door/655/655 1 26020 0 0
+/door/659 3 78087 0 1
+/door/235/235 3 85014 0 0
+/door/634 1 25559 0 0
+/fonts/intro.ttf 1 37448 0 0
+/door/368 1 53177 0 0
+/door/282 3 98286 2 3
+/dveri/2/56/11 19 691049 0 2
+/door/261/261 1 32304 0 0
+/dveri/1/62/29 11 589512 0 0
+/pages/page/6 5 100520 0 0
+/door/704/704 1 24265 0 0
+/door/453 1 39442 0 0
+/door/267 1 32815 0 1
+/door/663/663 2 52040 0 0
+/admin/pages/4 2 44826 0 0
+//door/704/0/0/1/4/0/711.4 1 24292 0 0
+/door/632/632 1 24942 0 1
+/auth_form 9 6273 1 1
+/door/689/689 1 24064 0 0
+/door/121/121 1 37833 0 0
+/door/303 1 27690 0 0
+//door/83/0/1944/8/10/6/3482 2 66552 0 0
+/door/471 3 119547 0 0
+/door/697/697 3 71757 0 0
+/dveri/2/65 17 495516 3 2
+/door/686 1 24040 0 0
+/door/277 1 32140 0 0
+/dveri/1/1 5 91200 5 2
+/fonts/intro.woff 7 103740 0 0
+/dveri/1/64/35 3 60954 0 0
+/dveri/1/64/21 6 214518 0 0
+/door/669/669 2 52056 0 0
+/door/711 5 120915 0 0
+/door/142 1 38512 0 1
+/door/269/269 1 31788 0 0
+/door/291 2 65622 0 1
+/door/457 1 39788 0 1
+/pages/page/14 4 71108 0 1
+/dveri/1/62/31 3 71457 0 0
+//door/249/0/4985/0/0/0/4985 1 32310 0 0
+/door/359 1 50698 0 1
+/pages/page/12 3 53331 0 0
+/door/619 1 28095 0 0
+/door/641/641 1 32991 0 0
+//door/166/0/2975/7/9/0/4041 1 33287 0 0
+//door/249/0/4985/1/4/2/6114.74 1 32338 0 0
+/pages/page/19 3 53331 0 0
+/door/723 4 109556 1 1
+/dveri/1/72/53 8 209224 0 0
+/fonts/cleanvel.eot 21 584598 0 14
+/dveri/1/66/37 5 104115 0 0
+/door/621 5 142325 5 2
+/door/291/291 1 32802 0 0
+/door/302 1 27707 0 1
+/door/746 3 78825 1 1
+/door/735 1 26500 0 0
+/dveri/1/69/40 3 55509 0 0
+//door/82/0/1944/8/10/5/3246 1 33307 0 1
+/door/662 3 78105 0 0
+/door/640 1 33000 0 1
+/door/676 1 26037 0 0
+/dveri/1/62 23 472627 0 1
+/door/490 1 46624 0 0
+/door/413 1 53210 0 0
+/door/503 5 226150 5 2
+/door/560 2 69348 0 2
+/door/638 1 32995 0 0
+/dveri/3 23 428881 1 2
+//door/303/0/511/0/0/0/511 1 27687 0 0
+/dveri/4/48 12 233592 0 3
+/door/682 2 48864 1 1
+/fonts/cleanveb.ttf 1 50504 0 1
+END_SIDER

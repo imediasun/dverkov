@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/responsiveslider/css/slider.css" type="text/css">
+
+	<script src="/responsiveslider/js/jquery.flexslider-min.js"></script>
+
+<div class="flex-container">
+	<div class="flexslider">
+		<ul class="slides">
+			<?foreach ($slider as $key=>$value){?>
+			<li>
+				<a href="<?=$value['link'];?>"><img src="<?=$value['path'];?>" /></a>
+			</li>
+		<?}?>
+			
+			
+			
+		</ul>
+	</div>
+</div>
+
+<script>
+$(document).ready(function () {
+	$('.flexslider').flexslider({
+		animation: 'fade',
+		controlsContainer: '.flexslider'
+	});
+});
+</script>

@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/wisdom-services.net/webstat"
+AuthUserFile /home/imediasun/data/etc/57184450.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

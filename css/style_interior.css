@@ -1,0 +1,111 @@
+#int_frame{
+width:940px;
+height:470px;
+margin:0 auto;
+position:relative;
+border: 8px solid #0A3F4C;
+border-radius: 5px;
+box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.5);
+overflow:hidden;
+}
+#int_frame ul li{
+position:absolute;
+}
+#int_frame img:not .door_in img{
+width:100%;
+}
+
+#door_in{
+position:absolute;
+height:300px;
+/* background:#ee9; */
+width:300px;
+bottom:20px;
+right:0px;
+text-align:center;
+}
+.item_slider h3{
+position:absolute;
+color:#000;
+top:-30px;
+left:45px;
+}
+.door_slider{
+width:850px;
+}
+.doors_slider{
+left:60px;
+}
+.floor_slider{
+left:45px;
+width:230px;
+}
+.vertical_line{
+position:absolute;
+height:130px;
+width:10px;
+top:-36px;
+right:-15px;
+border-right:1px solid #000;
+z-index:999;
+}
+.item_door_slide{
+width:150px;
+height:200px;
+position:relative;
+background:#ee9;
+border:3px solid #fff;
+margin:auto;
+}
+.current_door_slide{
+width:150px;
+height:200px;
+position:relative;
+background:#ee9;
+border:3px solid #000;
+margin:auto;
+}
+.item_slide{
+width:70px;
+height:70px;
+position:relative;
+border:3px solid #fff;
+margin:auto;}
+
+.item_img{
+position:absolute;
+width:60px;
+height:60px;
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+}
+.door_img{
+position:absolute;
+height:160px;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+margin:auto;
+}
+.item_slider{
+position:relative;
+height:70px;
+}
+.item_doors_slider{
+position:relative;
+height:200px;
+}
+.current_item{
+position:relative;
+width:70px;
+height:70px;
+border:3px solid #000;
+margin:auto;
+}
+.slick-slider img{
+cursor:pointer;
+}

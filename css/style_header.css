@@ -1,0 +1,10 @@
+#header_line{
+position:relative;
+background:#0a3f4c;
+height:80px;
+}
+#logo h1,#address h1{
+font-family: 'Intro';
+font-size:120%;
+color:#fff;
+}

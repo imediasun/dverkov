@@ -1,0 +1,29 @@
+#calc{
+position:relative;
+background:#eee;
+width:100%;
+height:445px;
+
+
+margin:20px auto;
+}
+.MYCLASS{
+margin:auto;
+}
+#calc_btn_block{
+background:#fff;
+width:100%;
+height:42px;
+
+}
+.calc{
+width:350px;
+}
+#calc_btn{
+position:relative;
+float:right;
+margin-right:7%;
+}
+@media screen and (max-width: 1600px) {
+
+}

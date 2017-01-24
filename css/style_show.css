@@ -1,0 +1,20 @@
+#show_info{
+width:65%;
+height:150px;
+background:rgba(0,0,0,0.5);
+position:absolute;
+margin:0 17%;
+text-align:center;
+top:55px;
+}
+#show_link{
+position:relative;
+}
+#show_text{
+margin-top:50px;
+font-size:400%;
+
+}
+#show_link a {
+text-decoration:none;
+}

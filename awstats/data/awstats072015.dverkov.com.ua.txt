@@ -1,0 +1,1065 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201507 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2581                
+POS_VISITOR 11232               
+POS_DAY 19565               
+POS_DOMAIN 3472                
+POS_LOGIN 3903                
+POS_ROBOT 4058                
+POS_WORMS 4486                
+POS_EMAILSENDER 4617                
+POS_EMAILRECEIVER 4760                
+POS_SESSION 20435               
+POS_SIDER 20648               
+POS_FILETYPES 4895                
+POS_OS 5075                
+POS_BROWSER 5188                
+POS_SCREENSIZE 5548                
+POS_UNKNOWNREFERER 5622                
+POS_UNKNOWNREFERERBROWSER 6283                
+POS_ORIGIN 6545                
+POS_SEREFERRALS 6689                
+POS_PAGEREFS 6880                
+POS_SEARCHWORDS 7871                
+POS_KEYWORDS 8023                
+POS_MISC 2245                
+POS_ERRORS 8082                
+POS_CLUSTER 3759                
+POS_SIDER_404 8223                
+POS_PLUGIN_geoip_city_maxmind 10233               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150801003656 283 69597 38711049198
+FirstTime 0
+LastTime 20150731182126
+LastUpdate 20150801020837 283 0 282 0 0
+TotalVisits 323                 
+TotalUnique 205                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 205                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 58 58 1649676 44 44 1410798
+1 5 5 84925 54 54 1340041
+2 38 38 985533 27 27 871434
+3 6 6 101924 54 54 1719618
+4 2 2 43764 125 125 3466677
+5 31 31 920110 184 184 5273801
+6 12 12 308271 51 51 1379944
+7 8 8 147692 66 66 2027244
+8 25 25 567977 693 693 23106412
+9 185 185 5182248 85 96 1835763
+10 408 408 11007772 74 86 996580
+11 519 520 10674093 113 118 1833177
+12 371 371 8039985 107 136 2347726
+13 279 279 7215005 116 127 2784575
+14 207 207 4440539 57 120 1262266
+15 269 269 6414840 86 139 2166241
+16 361 361 8592511 86 138 1523654
+17 381 381 10550398 50 51 1417457
+18 102 102 2775721 41 49 1071387
+19 185 185 6010487 55 58 1276825
+20 104 104 2464317 27 27 758671
+21 115 115 2846662 570 570 19130209
+22 251 251 4972645 43 45 652201
+23 248 248 6197219 70 79 1079200
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+ua 2502 2502 60052458
+eu 1143 1144 28368410
+ru 147 147 3975473
+de 112 112 1688001
+unknown 101 101 2898734
+no 81 81 3174204
+us 71 71 1639716
+pl 3 3 175763
+gb 3 3 41899
+cz 2 2 47151
+cn 1 1 27461
+ch 2 2 52522
+ee 2 2 52522
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+mj12bot 1529 49568538 20150731173819 0
+googlebot 644 20666510 20150731213017 0
+bot[+:,\.\;\/\\-] 151 3940746 20150731081103 0
+yandex 80 2639554 20150730200123 0
+rambler 12 255194 20150702150617 0
+robot 3 65646 20150725231546 0
+surveybot 2 43764 20150724200631 0
+netcraft 1 21882 20150710211250 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+eot 63 1405110 0 0
+4 1 32329 0 0
+png 1 518 0 0
+ttf 1 50852 0 0
+html 710 14375765 0 0
+woff 212 3732080 0 0
+Unknown 3183 82597660 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 228
+winxp 2212
+unix 29
+win2000 10
+winnt 1212
+Unknown 110
+linux 370
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 24
+msie6.0 4
+msie5.01 10
+firefox26.0 1
+opera 162
+libwww 4
+firefox18.0 6
+firefox29.0 1
+firefox38.0 20
+firefox31.0 5
+msie8.0 74
+mozilla 216
+firefox39.0 100
+firefox25.0 2
+firefox37.0 5
+firefox14.0.1 10
+msie7.0 1
+firefox29 1
+msie10.0 2
+firefox6.0 1
+Unknown 16
+firefox8.0.1 2
+firefox36.0 1
+safari 3526
+firefox3.5.7 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+C-T_bot 20150722195620
+Opera/9.80_(J2ME/MIDP;_Opera_Mini/4.5.40312/36.2464;_U;_ru)_Presto/2.12.423_Version/12.16 20150702114700
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20150716235515
+Mozilla/5.0_(Android;_Mobile;_rv:37.0)_Gecko/37.0_Firefox/37.0 20150701235823
+Other 20150707172338
+Sylera/1.2.x 20150722172528
+libwww-perl/6.13 20150712184905
+Mozilla/5.0_(compatible;_vkShare;__http://vk.com/dev/Share) 20150729164044
+Opera/9.80_(Android;_Opera_Mini/7.6.40234/37.6116;_U;_ru)_Presto/2.12.423_Version/12.16 20150730155232
+(DreamPassport/3.0;_isao/MyDiGiRabi) 20150703111023
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+C-T_bot 20150722195620
+Other 20150707172338
+Sylera/1.2.x 20150722172528
+2ip.ru_CMS_Detector_(http://2ip.ru/cms/) 20150716235515
+(DreamPassport/3.0;_isao/MyDiGiRabi) 20150703111023
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 324 324
+From1 0 0
+From2 65 65
+From3 40 40
+From4 3741 3742
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 18 18
+search 2 2
+yandex 44 44
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+http://yandex.ua/clck/jsredir 13 13
+http://www.yandex.ua/clck/jsredir 4 4
+http://m.vk.com/away.php 3 3
+http://ilichevsk.spravker.ru/dveri-dvernye-bloki/ 3 3
+http://link.2gis.ru/1D88B744/grym/20150701/odessa/7007d0006b0b9 2 2
+http://rabota.ua/pages/service/getattach.aspx 2 2
+http://m.vk.com/illyichevsk 2 2
+http://vk.com/away.php 2 2
+http://freelance.ua/user/imediasun/portfolio/15984-sajt-magazina-dverej-prestizh.html 2 2
+http://ilichevsk.spravker.ru/dveri-dvernye-bloki/prestizh3.htm 1 1
+http://link.2gis.ru/5B6D39D8/grymmobile/20150601/odessa/7007d0006b0b9 1 1
+http://hundejo.com 1 1
+http://vk.com/illyichevsk 1 1
+http://yandex.ua/search/ 1 1
+http://burger-imperia.com 1 1
+http://link.2gis.ru/1.1/5284DC29/webapi/20150701/project14/1970853118666505/bizspravka.su/564Cbx86G4H3J1HJf097uvfs79675632Abd946843JG3705J7dc707G4AA0A8766G5HGdf 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+103 25 49152
+302 339 2743503
+400 6 7074
+500 5 7914
+404 340 722424
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 63
+/cms/kernel/admin.php 1 -
+/sitetree/ 1 -
+/system/cms/ 1 -
+/manager/ 1 -
+/apple-touch-icon.png 2 -
+/admin.php 1 -
+/img/interior/battroom1_plintus_thumb.png 5 http://dverkov.com.ua/interior
+/5dc935ee3fe96098f0b7f87901e5bdf86b555295/ 1 http://dverkov.com.ua/pages/page/10
+/Uploads/uploadTester.asp 1 -
+/admin/uploadarticles/uploadTester.asp 1 -
+/users/ 1 -
+/netcat/ 1 -
+/img/interior/walls_modern_2_thumb.png 4 http://dverkov.com.ua/interior
+/login.php 1 -
+/img/interior/walls_modern_3_thumb.png 4 http://dverkov.com.ua/interior
+/wp-admin/ 1 -
+/admin/rte_popup_file_atch.asp 1 -
+/wp-admin 1 -
+/owner/uploadtester.asp 1 -
+/content/view/12/23/ 1 -
+/forms/services/uploadTester.asp 1 -
+/img/interior/walls_modern_1_thumb.png 4 http://dverkov.com.ua/interior
+/typo3/index.php 1 -
+/cgi-bin/mt/mt-check.cgi 1 -
+/rte/rte_popup_file_atch.asp 1 -
+/img/interior/walls_modern_1.png 2 http://dverkov.com.ua/interior
+/inc/uploadTester.asp 1 -
+/login_form 1 -
+/tt/uploadTester.asp 1 -
+/apple-touch-icon-precomposed.png 2 -
+/rus/view-in-interior/68.html 24 http://dverkov.com.ua/
+/cp/ 1 -
+/db/uploadTester.asp 1 -
+/user/ 1 -
+/ion.rangeslider-1.9.1/js/ion-rangeslider/ion.rangeslider.min.js 1 -
+/0/62 1 http://dverkov.com.ua/interior
+/mobile/door/746 2 -
+/administrator/index.php 2 -
+/newsletters/upload/Test1/uploadTester.asp 1 -
+/view-in-interior/68.html 1 -
+/member/login/ 1 -
+/DCBSP2/tacorner/uploadTester.asp 1 -
+/includes/RTE/RTE_popup_file_atch.asp 1 -
+/admin 2 -
+/admin/page/8 1 -
+/labs/uploadTester.asp 1 -
+/img/sprinkles.png 232 http://dverkov.com.ua/css/style_admin.css
+/administrator/ 1 -
+/administrator 1 -
+/textpattern/ 1 -
+/bitrix/admin/ 1 -
+/login/ 1 -
+/interior.%D0%95%D1%81%D0%BB%D0%B8 1 -
+/m/door/746 2 -
+/doors/ML-05_art_bel_dub.jpg 2 -
+/wp-login.php 1 -
+/eshterak/uploadTester.asp 1 -
+/admin/login/ 1 -
+/chinese/scripts2/uploadTester.asp 1 -
+/modx/manager/ 1 -
+/mc/uploadTester.asp 1 -
+/engine/print.php 1 -
+/admin/ 3 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 28
+unknown 0 2161 0 0
+ua_odessa_17 0 1797 0 0
+ua_kherson_08 0 74 0 0
+ua_kiev_13 0 23 0 0
+ru_perm_58 0 20 0 0
+ru_moscow_48 0 16 0 0
+ru_krasnodar_38 0 12 0 0
+us_sterling_va 0 10 0 0
+ru_saint%20petersburg_66 0 8 0 0
+ru_izhevsk_80 0 5 0 0
+ru_ufa_08 0 1 0 0
+de_kiez_12 0 4 0 0
+ua_kharkov_07 0 3 0 0
+ru_yekaterinburg_71 0 4 0 0
+us_houston_tx 0 1 0 0
+cn_guangzhou_30 0 1 0 0
+us_mountain%20view_ca 0 3 0 0
+ru_yoshkar-ola_45 0 4 0 0
+de_delmenhorst_06 0 3 0 0
+ru_volgograd_84 0 2 0 0
+ru_chelyabinsk_13 0 1 0 0
+gb_glasgow_v2 0 2 0 0
+pl_legionowo_78 0 3 0 0
+ru_irkutsk_20 0 3 0 0
+cz_chomutov_89 0 2 0 0
+ru_kolomna_47 0 4 0 0
+ee_tallinn_01 0 2 0 0
+us_woodbridge_nj 0 2 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 205
+83.142.111.254 611 611 8728431 20150716134840
+185.26.182.29 406 406 9283759 20150730180107
+83.142.111.223 261 261 7642857 20150717103351
+185.26.182.34 246 246 5139288 20150730145221
+185.26.182.25 236 237 7659426 20150731121740
+83.142.111.145 226 226 6092517 20150717221410
+83.142.111.165 120 120 1695484 20150730183854
+185.26.182.37 116 116 2776754 20150730161646
+212.15.138.106 114 114 2941894 20150724140023
+178.95.18.14 80 80 2339890 20150715003310
+176.36.52.108 1 1 51433 20150703111023
+212.15.159.111 3 3 87530 20150720164118
+141.0.12.141 4 4 293642 20150705173050
+83.142.111.173 21 21 580476 20150715231526
+92.39.210.52 5 5 81284 20150719132437
+178.57.188.37 2 2 101254 20150711182149
+95.24.209.198 4 4 106630 20150702022335
+37.52.18.161 6 6 243782 20150714205216
+89.169.221.46 5 5 81284 20150721031557
+88.70.142.201 3 3 71178 20150727230929
+62.64.102.210 4 4 92611 20150728145704
+82.145.223.18 1 1 222345 20150705173054
+92.49.208.208 7 7 220609 20150711140151
+217.69.133.169 6 6 123832 20150729201651
+89.178.86.145 4 4 100754 20150702022337
+188.32.71.147 4 4 119945 20150725212039
+178.137.249.176 5 5 93944 20150730202045
+91.206.33.245 3 3 85562 20150710185555
+37.212.187.91 2 2 54013 20150722192557
+178.137.249.250 24 24 735876 20150712080912
+185.23.105.125 1 1 20640 20150707035412
+185.26.182.27 1 1 697 20150731151042
+195.218.238.218 8 8 129462 20150722162224
+54.68.97.166 1 1 17767 20150703102629
+91.206.33.228 11 11 242294 20150701022153
+213.227.234.53 30 30 892855 20150722222801
+176.14.152.125 1 1 18939 20150702133630
+46.181.235.28 5 5 81284 20150715101606
+91.196.228.12 2 2 54013 20150727080948
+194.114.133.131 30 30 899470 20150720054910
+46.185.85.63 10 10 409386 20150702123234
+178.45.153.237 2 2 45286 20150704190030
+188.32.241.4 5 5 193730 20150702142856
+176.195.199.114 1 1 123241 20150701195323
+141.0.12.144 2 2 22005 20150705225951
+185.12.127.33 1 1 31776 20150706100030
+188.32.230.159 2 2 49720 20150716063056
+83.142.111.206 16 16 518153 20150701192227
+37.187.104.51 4 4 81840 20150712184905
+31.31.123.6 1 1 20640 20150708050818
+46.33.32.4 23 23 691335 20150720230913
+176.36.52.189 1 1 25269 20150725203111
+37.52.190.21 1 1 31776 20150726233012
+194.54.162.38 4 4 105044 20150715093029
+92.126.11.138 3 3 79533 20150730204936
+5.9.151.10 1 1 31776 20150724022617
+185.23.105.79 3 3 151121 20150716111445
+37.192.126.234 2 2 47151 20150708091113
+82.131.3.140 2 2 52522 20150727124944
+83.142.111.231 19 19 527816 20150726152104
+91.197.18.37 10 10 385495 20150720150739
+66.249.93.223 1 1 30640 20150723121251
+176.77.95.115 5 5 193730 20150710003259
+95.128.138.2 1 1 31776 20150716221904
+95.24.46.1 1 1 33254 20150701195323
+141.0.12.131 72 72 844549 20150705222316
+91.192.136.218 4 4 177755 20150726121101
+37.21.51.251 2 2 50421 20150730171027
+95.133.125.89 2 2 54013 20150720164933
+144.76.119.75 4 4 0 20150729084645
+83.142.111.211 76 76 2280116 20150720173944
+176.8.130.214 2 2 50657 20150701024847
+46.211.94.44 27 27 758202 20150711120046
+93.73.217.49 7 7 172333 20150731182126
+46.185.84.191 24 24 584602 20150723195245
+37.204.51.205 2 2 64626 20150702133633
+178.93.29.6 10 10 321222 20150726115043
+78.27.165.110 1 1 54370 20150722172528
+119.147.146.189 1 1 27461 20150710184951
+188.162.185.9 12 12 447645 20150714233152
+77.79.135.138 1 1 31776 20150702201433
+194.135.16.121 2 2 52207 20150714161704
+178.206.233.115 3 3 44461 20150707210714
+78.111.186.234 2 2 52522 20150723215258
+134.249.215.141 1 1 22005 20150703221214
+130.180.222.67 1 1 21882 20150724073705
+195.93.190.73 16 16 650806 20150708100450
+185.26.182.32 6 6 5110 20150730161942
+185.26.180.175 3 3 56021 20150702114700
+83.142.111.239 4 4 89587 20150724135737
+109.87.90.16 3 3 178874 20150715185952
+83.178.63.57 3 3 103080 20150721184918
+193.109.167.238 1 1 26656 20150729151734
+178.93.71.174 3 3 77791 20150713120251
+188.32.23.97 1 1 20640 20150725002302
+31.31.104.94 40 40 1396325 20150729172335
+77.52.152.139 1 1 37971 20150702090735
+5.45.192.75 4 4 94508 20150716235232
+185.26.182.35 9 9 331814 20150729114137
+185.26.182.36 7 7 200557 20150720174303
+69.58.178.57 10 10 211368 20150715160143
+185.26.182.31 14 14 449302 20150728121559
+95.220.117.161 1 1 123241 20150702133632
+66.249.81.196 1 1 21882 20150723121249
+178.94.172.146 2 2 52522 20150724104313
+213.191.13.154 4 4 87380 20150702022332
+83.6.168.151 3 3 175763 20150726121134
+188.187.138.166 4 4 94302 20150725190101
+85.238.100.67 1 1 21882 20150707172338
+178.95.8.238 6 6 188438 20150715120825
+77.52.152.217 28 28 885468 20150726170839
+176.77.127.18 2 2 48735 20150722020127
+213.200.60.215 2 2 50657 20150704130853
+188.32.131.219 4 4 107052 20150724165244
+83.142.105.110 39 39 1063245 20150716112258
+217.118.81.229 2 2 73466 20150730165319
+195.80.128.206 12 12 311015 20150727231003
+93.81.78.9 7 7 155112 20150710003301
+46.188.42.117 5 5 193730 20150702022337
+178.150.243.183 4 4 96162 20150721212054
+46.211.47.197 56 56 1723660 20150726113758
+185.26.182.26 1 1 24993 20150724104342
+79.165.160.246 4 4 90323 20150710003228
+193.227.209.86 4 4 104199 20150727115452
+95.220.85.53 1 1 38611 20150725002304
+212.15.141.90 32 32 767273 20150715124028
+85.238.98.66 17 17 247167 20150721183501
+37.115.72.234 2 2 51814 20150704105416
+79.140.2.188 5 5 111530 20150706102024
+5.105.221.117 5 5 118962 20150715184949
+2.92.222.228 4 4 119650 20150710003244
+176.120.118.35 7 7 278456 20150714182137
+94.248.3.228 66 66 1626786 20150722202514
+83.142.111.247 5 5 127072 20150701235823
+46.211.154.69 8 8 228894 20150714210758
+62.64.119.154 14 14 284887 20150722160707
+87.240.182.174 3 3 168788 20150728120729
+37.55.23.227 8 8 214787 20150722061822
+82.151.107.130 1 1 20104 20150706170029
+176.77.4.80 4 4 101695 20150702142912
+93.81.71.137 1 1 18656 20150725002302
+178.248.111.4 1 1 20017 20150703191602
+82.145.221.10 77 77 2848779 20150730155232
+54.191.244.235 1 1 80364 20150716111630
+95.164.40.190 1 1 18939 20150720192231
+195.78.247.114 10 10 264720 20150722222858
+92.240.126.7 39 39 360366 20150724143821
+77.52.156.85 1 1 20017 20150701184658
+5.165.255.74 1 1 38189 20150702133632
+188.115.168.57 48 48 1604978 20150728115346
+213.193.22.131 4 4 106630 20150702142843
+31.31.106.163 2 2 49720 20150727102430
+207.201.223.196 1 1 21882 20150709023129
+94.178.95.131 9 9 221059 20150714225504
+37.73.252.243 3 3 74404 20150722103318
+178.137.130.83 7 7 184359 20150708145252
+46.149.82.81 2 2 62953 20150729123042
+176.14.130.198 1 1 33250 20150725002302
+46.211.120.142 1 1 50852 20150718084937
+178.93.132.62 3 3 77927 20150719132948
+37.144.31.189 4 4 89081 20150710003247
+185.26.182.41 6 6 79979 20150705225943
+77.52.158.149 1 1 37971 20150706143122
+83.142.111.164 2 2 50657 20150703155554
+66.249.93.217 1 1 21882 20150723121249
+176.195.220.43 4 4 87380 20150702142833
+212.33.255.53 20 20 433910 20150722195621
+195.138.77.86 8 8 581793 20150702130729
+5.45.192.69 1 1 30640 20150706143125
+176.14.146.190 1 1 18939 20150701195322
+37.57.186.117 7 7 180913 20150714214113
+212.53.110.13 2 2 52522 20150727122614
+46.73.161.51 1 1 33254 20150702133633
+193.19.119.83 1 1 35265 20150708111909
+46.211.155.52 1 1 21882 20150708153500
+87.240.182.157 1 1 21882 20150729164044
+176.196.67.143 2 2 47151 20150726141020
+91.192.137.179 11 11 402988 20150729173636
+178.219.252.230 8 8 252197 20150727191003
+83.142.104.68 3 3 71297 20150701103339
+176.8.130.109 1 1 20017 20150705010931
+193.161.12.156 3 3 103080 20150721175351
+83.142.111.229 31 31 694184 20150723215649
+185.26.182.33 41 41 940845 20150727154319
+188.40.35.183 3 3 65646 20150716235515
+185.26.182.28 2 2 52522 20150718180136
+178.93.27.133 61 61 1557261 20150704165124
+93.88.52.44 5 5 175658 20150712144345
+93.77.84.105 2 2 63894 20150715074844
+185.26.182.30 14 14 285203 20150725143253
+83.142.111.209 39 39 353773 20150712112505
+141.0.12.138 24 24 390981 20150705173806
+176.102.206.135 2 2 50421 20150730155203
+128.69.136.0 4 4 101695 20150702022402
+91.105.238.22 2 2 21882 20150718101340
+176.193.200.135 4 4 100754 20150702142910
+176.8.130.171 16 16 494202 20150714194209
+87.240.182.161 1 1 24993 20150714205556
+46.188.72.148 1 1 51504 20150725002304
+130.0.60.167 54 54 1211926 20150717234030
+83.142.111.166 52 52 1930564 20150730195000
+195.138.71.245 7 7 245874 20150730195406
+93.170.186.129 2 2 47151 20150717094532
+176.119.69.202 4 4 99793 20150731135829
+46.147.210.192 1 1 38189 20150701195323
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20150701 59 59 1829098 19
+20150702 121 121 3788334 25
+20150703 78 78 1582713 10
+20150704 69 69 1745052 5
+20150705 112 112 1996759 8
+20150706 93 93 3900351 9
+20150707 48 48 816124 8
+20150708 50 50 1228674 8
+20150709 41 41 940394 6
+20150710 371 371 6902314 11
+20150711 101 101 2806495 12
+20150712 59 59 923247 6
+20150713 72 72 1196107 8
+20150714 259 259 7284177 19
+20150715 108 108 3092177 16
+20150716 275 275 4073253 9
+20150717 67 67 1523696 8
+20150718 22 22 502710 4
+20150719 65 65 1511691 6
+20150720 109 109 3513814 10
+20150721 70 70 1473551 8
+20150722 191 191 4734665 18
+20150723 40 40 912576 7
+20150724 172 172 3726358 10
+20150725 31 31 709262 11
+20150726 110 110 3459081 11
+20150727 180 180 3473821 14
+20150728 54 54 1568493 7
+20150729 69 69 2286382 10
+20150730 832 832 20911107 16
+20150731 242 243 7781838 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+5mn-15mn 36
+2mn-5mn 28
+0s-30s 184
+15mn-30mn 23
+30s-2mn 23
+30mn-1h 15
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 416
+/ 298 6334610 163 63
+/functions_ajax/get_walls 202 22029 1 5
+/fonts/cleanvel.woff 181 3554240 2 33
+/functions_ajax/get_name_of_door/ 177 4212913 0 0
+/functions_ajax/get_floor 157 4807 0 3
+/functions_filter/form_filter 136 328895 0 3
+/dveri/1 135 2773086 11 8
+/interior 119 12368389 22 10
+/functions_images/ 118 8024 0 0
+/functions_ajax/get_plintus 95 2922 0 3
+/functions_ajax/get_colls_naliki 51 4599 0 0
+/door/771 1 29629 0 0
+/door/752/752 1 26857 0 1
+//door/293/0/972/16/0/0/1174 1 27303 0 1
+/admin/door_edit/84/1/62 1 52623 0 0
+/door/720 1 27389 0 0
+/door/737 3 80643 0 0
+/door/392 9 453334 0 4
+/dveri/1/67/24 3 77283 0 0
+/door/761/761 2 71918 0 0
+/door/305/305 2 55330 0 0
+/admin/pages/5 2 26356 0 0
+/door/235 1 28347 0 0
+/door/268/268 1 33501 0 0
+/door/309 2 55338 0 0
+/door/186 1 27490 0 0
+/admin/door_edit/94/1/62 1 53161 0 0
+//door/733/0/2300/19/16/16/3465 2 53356 0 0
+/door/281 2 64906 0 0
+/dveri/1/70/44 5 125245 0 0
+/door/83 10 335597 5 2
+/door/744 1 26953 0 0
+/door/239 1 28347 0 1
+/admin/add_door/1/73/59/ 19 757200 0 0
+/dveri/1/63/33 9 281193 0 0
+/admin/pages/2 3 52395 0 0
+/door/146/146 1 38151 0 0
+//door/163/0/4686/8/10/5/5988 1 33468 0 0
+/admin/door_edit/102/1/62 1 52616 0 0
+//door/227/0/4650/0/0/0/4650 1 28338 0 1
+/admin/door_edit/108/1/62 1 52616 0 0
+/admin/door_edit/104/1/62 1 53214 0 0
+/admin/dveri_edit/2 7 222999 0 0
+/dveri/2/64 8 240624 0 1
+/door/98/98 1 33273 0 0
+/admin/dveri_edit/1/62 7 211057 0 0
+/admin/add_door/1/73/59 27 1028241 0 0
+/pages/page/11 9 253818 2 2
+/door/259 2 64626 0 1
+/admin/door_edit/86/1/62 1 53221 0 0
+/dveri 1 17519 0 0
+/door/740 1 26672 0 0
+/functions_ajax/change_door_price/ 1 0 0 0
+/door/279/279 1 32207 0 0
+//door/81/0/3071/7/5/0/3901 1 33414 0 0
+/door/217 1 28342 0 0
+/dveri/1/69/39 14 344198 0 0
+/admin/add_door/2/65 19 719872 0 0
+/dveri/1/68/46 10 263550 0 0
+/door/94 10 332430 1 1
+/door/276/276 1 32162 0 0
+/door/698 1 24277 0 0
+/dveri/1/72/52 15 364520 0 1
+/dveri/2/56 38 727548 0 0
+/door/312 2 55340 0 0
+/dveri/1/68/47 6 126968 0 0
+/fonts/cleanveb.eot 18 498024 0 3
+//door/249/0/4985/1/4/0/5696.4 1 32329 0 0
+/pages/page/18 29 2203645 1 5
+/door/199/199 1 27118 0 1
+/admin/dveri_edit/1/73/58 4 116866 0 0
+/admin/door_edit/267/1/66 2 107070 0 0
+/admin/dveri_edit/1/73 11 297000 0 0
+//admin/pages/5 20 263144 0 0
+/admin/door_edit/524/1/63 1 57448 0 0
+/door/255 1 32313 0 0
+/admin/dveri_edit/1/73/60 23 874510 0 0
+/door/249 2 64626 0 0
+/dveri/1/66/23 13 473217 0 0
+/door/278 10 323758 0 0
+/door/426 1 39846 0 0
+/admin/door_edit/171/1/62 1 52670 0 0
+/door/684/684 1 24064 0 0
+//door/740/0/2300/20/17/17/3465 1 26694 0 0
+/admin/add_door_furn/4/48 1 39147 0 0
+/pages/page/2 20 378780 5 3
+/admin/main_page_filter 3 1374643 0 0
+/dveri/1/63 24 449200 0 0
+/dveri/1/68 15 281475 0 1
+/door/132/132 2 75156 0 0
+/admin/add_collection/1/73 7 259211 0 0
+/door/675 1 26037 0 0
+/door/163 1 33446 0 0
+/pages/page/17 30 749790 15 9
+/door/515 6 229978 6 3
+/door/109 2 66506 0 1
+/door/729 1 26656 0 0
+//door/294/0/757/16/43/0/1209 1 27675 0 1
+/dveri/4 21 378042 0 3
+/admin/door_edit/93/1/62 1 52616 0 0
+/door/312/312 1 27681 0 0
+/admin/door_edit/81/1/62 2 106514 0 0
+//door/217/0/4650/0/0/0/4650 1 28333 0 0
+/dveri/1/64/49 9 167637 0 0
+/admin/dveri_edit/2/62 3 77625 0 0
+/door/624/624 1 28455 0 0
+/dveri/2/63 10 306140 0 1
+/door/82 2 69627 0 0
+/door/309/309 2 55320 0 0
+/dveri/1/69 21 414806 0 0
+/admin/add_door/1/73/58/ 4 158787 0 0
+/admin/door_edit/92/1/62 1 53211 0 0
+/door/169 1 33368 0 0
+//door/744/0/2300/20/17/17/3465 1 26975 0 0
+//door/294/0/757/16/42/0/1084 1 27675 0 0
+/admin/pages/page/13 1 0 0 0
+/door/734 1 26603 0 1
+/door/171 1 33042 0 0
+/door/258/258 1 32301 0 0
+/admin/door_edit/126/1/62 1 53180 0 0
+/dveri/1/62/19 29 1576585 2 2
+/door/299/299 1 27706 0 0
+/admin/add_door/2/65/ 18 699276 0 0
+/admin/producer_edit/1/73 1 27604 0 0
+// 27 584756 11 3
+/dveri/1/67/25 4 92508 0 0
+/admin/producer_edit/2/62 2 55472 0 0
+/door/628 2 56998 2 0
+/door/388 1 51209 1 0
+/dveri/1/69/41 18 382458 0 0
+/door/293 1 27302 0 0
+/door/552/552 1 23645 0 0
+/admin/door_edit/106/1/62 1 53180 0 0
+/dveri/2/56/50 13 328627 0 1
+/admin/door_edit/87/1/62 2 106376 0 0
+/admin/door_edit/83/1/62 1 53172 0 0
+/door/84 2 65962 0 0
+//door/309/0/890/16/0/0/1092 2 55340 0 0
+/admin/door_edit/123/1/62 1 53178 0 0
+/admin/door_edit/169/1/62 1 53252 0 0
+/door/227 1 28347 0 0
+/door/601/601 1 24195 0 0
+/door/535/535 1 36858 0 0
+/pages/page/ 2 38076 0 1
+/door/370 1 53626 0 0
+/admin/dveri_edit/1/63 2 54602 0 0
+/door/749 1 26863 0 0
+/door/280 1 32488 0 0
+/dveri/1/67/27 5 89410 0 0
+/admin/pages/4/ 10 465744 0 0
+/functions_ajax/del_pod_door/ 1 9475 0 0
+//admin/dveri_edit/2/65 18 910322 0 1
+/dveri/1/66/22 20 679400 0 0
+/door/281/281 1 32818 0 0
+/dveri/1/70/45 4 74272 0 0
+/door/300 1 27711 0 0
+/door/441 1 39872 0 0
+/pages/page/10 7 154035 2 1
+/admin/furnitura_edit/4/48 2 51794 0 0
+/dveri/1/64/36 6 119308 0 0
+/door/592 1 24441 1 0
+/slick/fonts/slick.eot 3 6144 0 3
+/admin/door_edit/755/2/65/ 2 111235 0 0
+/admin/dveri_edit/2/65 2 86633 0 0
+/admin/dveri_edit/1/62/18 3 109674 0 0
+/admin/pages/8 2 155858 0 0
+/door/216 2 57512 0 1
+/door/97 1 33239 0 0
+/door/347 2 56076 0 0
+/door/695 2 48170 1 0
+/door/112 1 33264 0 1
+/admin/change_menu/ 1 37 0 0
+/dveri/1/67 11 216248 0 0
+/door/751 1 26866 0 0
+/dveri/1/70/43 14 323804 1 0
+/dveri/2/15 1 18230 1 0
+/dveri/1/62/32 5 111660 0 0
+/dveri/3/72 14 248654 2 4
+//admin/pages/6 45 593803 0 1
+/admin/door_edit/170/1/62 1 53266 0 0
+/admin/door_edit/107/1/62 1 53246 0 0
+/admin/door_edit/85/1/62 1 53202 0 0
+/pages/page/8 39 985651 4 15
+/dveri/3/49 18 380592 2 1
+//admin/pages/7 32 422096 0 0
+/dveri/1/72/54 8 148376 0 0
+/door/305 1 27694 0 0
+/admin/door_edit/89/1/62 1 53200 0 0
+/pages/page/3 16 485240 1 3
+/door/656 1 26029 0 0
+/door/223 3 85026 0 1
+//door/86/0/1890/0/0/0/1890 2 66600 0 1
+/admin/door_edit/97/1/62 1 53157 0 0
+/dveri/2/56/48 16 528592 0 0
+/admin/door_edit/125/1/62 1 52616 0 0
+/dveri/1/63/20 22 1768408 3 1
+//door/278/0/1362/15/0/0/1644 1 32126 0 0
+/dveri/1/70 18 354010 1 1
+/door/558 4 141050 0 0
+//door/592/0/5700/0/21/0/6180 1 24452 0 1
+/door/584 1 26853 0 1
+/door/587 1 26859 0 0
+/door/728 2 53374 0 0
+/pages/page/16 5 89420 0 3
+/pages/page/4 11 195536 0 0
+/admin/door_edit/105/1/62 1 52616 0 0
+/door/671 1 26037 0 0
+/door/797 1 30776 0 0
+/admin/door_edit/111/1/62 1 52616 0 0
+/door/268 1 33470 0 0
+/admin/dveri_edit/1/66/22 3 152454 0 0
+/admin/category 4 24453 0 0
+/dveri/2/62 13 230971 1 2
+/door/81/81 1 33391 0 0
+/dveri/1/62/18 17 402345 1 1
+/admin/dveri_edit/1/73/59 24 845688 0 0
+/admin/door_edit/124/1/62 1 53224 0 0
+/door/658 1 26029 0 0
+/fonts/intro.eot 18 232830 0 0
+/door/81 7 236908 0 2
+/door/241 1 28347 0 0
+/admin/door_edit/167/1/62 1 53171 0 0
+//door/347/0/3804/0/0/0/3804 1 28035 0 0
+/door/170 1 33382 0 0
+/door/313/313 1 27666 0 0
+/dveri/1/70/42 9 201498 0 0
+/door/722 1 27389 0 0
+/admin/dveri_edit/1/63/20 1 115330 0 0
+/admin/door_edit/95/1/62 1 53200 0 0
+/admin/dveri_edit/1/66 2 56030 0 0
+/door/419 1 39794 0 0
+/door/166 2 66546 0 0
+/door/717 1 27394 0 0
+/door/726 1 27394 0 0
+/functions_ajax/get_colls_boxes 25 280 0 0
+/door/663 1 26029 0 0
+/dveri/1/64 26 525254 1 1
+/door/416 3 154552 2 2
+//door/94/0/2201/8/0/5/3031 2 66502 0 0
+/door/484 1 39465 0 0
+/door/629/629 1 28412 0 0
+/door/739 2 53312 1 1
+/door/733 1 26656 0 0
+/door/775 1 29642 0 0
+/door/426/426 2 79674 0 0
+/admin/door_edit/96/1/62 1 52588 0 0
+/dveri/1/62/30 3 87610 0 0
+/functions_ajax/get_colls 25 18193 0 0
+/admin/door_edit/82/1/62 2 107240 0 0
+/door/590 2 48271 0 0
+/fonts/cleanvel.ttf 1 50852 1 1
+/admin/door_edit/172/1/62 1 53170 0 0
+/door/83/83 1 33245 0 0
+/door/358/358 1 51424 0 0
+/door/480 5 197495 0 0
+/dveri/1/66 30 575120 0 0
+/door/252 2 64626 0 0
+/door/215 7 198058 0 0
+/dveri/1/67/26 7 199167 0 0
+/door/303/303 1 27681 0 1
+/door/284 1 33140 0 1
+/door/109/109 2 66488 0 0
+/door/248 4 95496 0 0
+/pages/page/15 8 143024 1 0
+/admin/door_edit/99/1/62 1 52608 0 0
+//door/82/0/1944/8/10/0/3010 1 33299 0 0
+/admin/producer_edit/2 1 29998 0 0
+//door/94/0/2201/8/10/0/3267 2 66514 0 1
+/dveri/2 75 1447350 4 0
+/admin/door_edit/168/1/62 1 52596 0 0
+/admin/door_edit/110/1/62 1 53246 0 0
+/admin/door_edit/90/1/62 1 52608 0 0
+/door/294 1 27660 0 0
+/door/276 4 128190 4 0
+/admin/dveri_edit/1 30 1030494 1 1
+/door/320 1 28000 0 0
+/door/670 1 26037 0 0
+/dveri/1/73/58 2 39474 0 0
+/admin/door_edit/113/1/62 2 109083 0 0
+/pages/page/9 16 508416 6 6
+/door/358 1 51433 1 1
+/dveri/3/71 6 157734 0 0
+/admin/door_edit/98/1/62 1 53200 0 0
+/door/257 3 96939 0 0
+/dveri/1/73/60 8 251567 0 1
+/dveri/1/64/34 9 190598 0 0
+/dveri/1/69/38 10 252850 0 0
+/dveri/1/72 34 651658 1 1
+/pages/page/5 15 411955 2 4
+/door/121 1 37842 0 0
+/door/635 1 26479 0 0
+/door/752 1 26866 0 0
+/door/292/292 1 27702 0 0
+/admin/pages/6 4 52816 0 0
+//door/146/0/2423/10/13/9/4112 1 38182 0 0
+//door/169/0/2754/7/5/0/3584 1 33382 0 0
+/door/91 4 133000 1 2
+/door/599 2 48137 0 1
+/admin/door_edit/112/1/62 2 106513 0 0
+/admin/add_door/1/73/60/ 24 951484 0 1
+/door/420 3 120437 0 1
+/door/163/163 1 33437 0 0
+/door/87 1 37002 0 0
+/admin/dveri_edit/3/71 1 37536 0 0
+/admin/door_edit/109/1/62 1 53178 0 0
+/door/657 1 26035 0 0
+/door/220 1 28342 0 0
+/pages/page/13 4 71108 0 0
+/door/85 1 33284 0 0
+/door/557 3 106503 1 2
+/door/659 1 26029 0 0
+//door/94/0/2201/8/10/5/3503 4 133060 1 1
+/admin/producer_edit/1 1 30008 0 0
+/door/516 1 41097 0 0
+/door/283 1 32798 0 0
+/admin/door_edit/173/1/62 1 53171 0 0
+/dveri/2/56/11 24 911304 2 4
+/dveri/1/62/29 11 623375 0 0
+/functions_ajax/del_door/ 1 34 0 0
+/pages/page/6 16 321664 1 1
+/door/251 6 193878 4 2
+/door/103 1 33240 0 0
+/door/166/166 1 33264 0 0
+/door/275 3 98988 0 0
+/door/267 1 33335 0 0
+/dveri/1/73 15 279075 0 0
+/door/741 1 26560 0 0
+/door/697 5 119680 0 0
+/admin/add_model/1/73 2 38235 0 0
+/admin/pages/4 6 164244 0 0
+//door/522/0/6409/0/0/31/6949 1 40597 0 0
+/door/522 2 81184 1 0
+/admin/del_main_page_door/ 2 116 0 0
+/door/716 1 27386 0 1
+/functions_ajax/save_model/ 2 56 0 0
+/auth_form 23 16031 6 5
+/door/121/121 1 37919 0 0
+/functions_ajax/get_colls_dob 37 48582 0 0
+//door/169/0/2754/7/9/3/4056 1 33390 0 0
+/door/146 1 38160 0 0
+//admin/dveri_edit/1/73 48 1309662 0 0
+/door/280/280 1 32479 0 0
+/admin/door_edit/166/1/62 1 53157 0 0
+/admin/dveri_edit/3 1 30751 0 0
+/dveri/2/65 19 713090 0 2
+/catalog/index 84 7704568 2 10
+/fonts/intro.woff 31 177840 0 7
+/dveri/1/64/35 6 123308 0 0
+//door/522/0/6409/0/0/0/6409 1 40589 0 0
+/door/743 2 53541 0 0
+/door/765 1 35963 0 1
+/dveri/1/64/21 15 560030 0 0
+/admin/furnitura_edit/4 2 59284 0 0
+/door/711 3 72549 0 2
+//door/558/0/705/17/0/0/933 1 35002 0 1
+/door/269/269 1 32162 0 0
+/dveri/1/73/59 9 223445 0 0
+/admin/dveri_edit/1/62/19 4 316176 0 1
+/auth_form/1 7 6503 1 1
+/admin/door_edit/91/1/62 1 53168 0 0
+/admin/door_edit/100/1/62 2 106330 0 0
+/dveri/1/62/31 5 121635 1 1
+/door/82/82 1 33276 0 0
+/door/115 2 77148 0 1
+/pages/page/14 4 71108 0 0
+//admin/door_edit/755/2/65 1 55619 0 0
+/door/319/319 1 27711 0 0
+/admin/add_door/1/73/60 25 952000 0 0
+/pages/page/12 1 17777 0 0
+//door/671/0/4650/0/0/0/4650 2 52056 0 0
+/door/273 2 65010 0 1
+/door/86 9 299727 0 1
+/door/194/194 1 27435 0 0
+//admin/dveri_edit/1 4 136508 1 0
+/functions_ajax/get_colls_dobor 34 4357 0 0
+/door/559 1 35376 0 0
+/pages/page/19 7 124439 0 0
+/door/723 1 27389 0 0
+/door/266 2 64626 1 0
+//door/522/0/6409/0/0/33/7489 1 40597 0 1
+/door/408/408 1 51208 0 0
+/dveri/1/66/37 13 274029 0 1
+/fonts/cleanvel.eot 24 668112 0 13
+/dveri/1/72/53 20 537340 0 0
+/door/507 1 38730 0 1
+//door/761/0/5105/0/0/0/5105 1 35965 0 0
+/admin/door_edit/699/3/71/ 1 43940 0 0
+/admin/add_door/1/73/58 6 228794 0 0
+/door/735 1 26899 0 0
+/door/746 3 79623 0 0
+/door/352 1 27373 0 0
+/dveri/1/69/40 8 148584 0 0
+/admin/door_edit/115/1/63 1 59561 0 0
+/admin/pages/7 3 39604 0 0
+/door/256 1 32313 1 0
+/admin/door_edit/103/1/62 1 53165 0 0
+//door/84/0/1944/8/10/0/3010 1 32975 0 0
+/door/179 1 38572 0 0
+//door/97/0/2201/8/6/0/3031 1 33253 0 0
+/functions_ajax/save_producer/ 1 2 0 0
+/dveri/1/62 58 1192282 0 0
+/admin/door_edit/101/1/62 1 53214 0 0
+/door/300/300 1 27702 0 0
+/door/730 1 26991 1 0
+/door/560 7 244054 0 2
+//door/281/0/1362/15/0/0/1644 2 64906 0 0
+/door/638 1 32995 0 0
+/dveri/3 29 541024 2 3
+/admin/add_corner_main_page/ 1 0 0 0
+/functions_ajax/get_colls_nal 56 60313 0 0
+/admin/door_edit/88/1/62 1 53161 0 0
+/admin/dveri_edit/1/63/33 1 47087 0 0
+/dveri/4/48 8 157512 0 0
+//door/370/0/3244/11/53/23/5394 1 53648 0 1
+/door/682 1 24432 0 0
+//door/86/0/1890/8/6/5/2956 2 66650 0 1
+END_SIDER

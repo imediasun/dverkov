@@ -1,0 +1,282 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201508 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2574                
+POS_VISITOR 6209                
+POS_DAY 6606                
+POS_DOMAIN 3143                
+POS_LOGIN 3430                
+POS_ROBOT 3585                
+POS_WORMS 3871                
+POS_EMAILSENDER 4002                
+POS_EMAILRECEIVER 4145                
+POS_SESSION 6687                
+POS_SIDER 6865                
+POS_FILETYPES 4280                
+POS_OS 4402                
+POS_BROWSER 4476                
+POS_SCREENSIZE 4570                
+POS_UNKNOWNREFERER 4644                
+POS_UNKNOWNREFERERBROWSER 4731                
+POS_ORIGIN 4813                
+POS_SEREFERRALS 4945                
+POS_PAGEREFS 5100                
+POS_SEARCHWORDS 5395                
+POS_KEYWORDS 5547                
+POS_MISC 2238                
+POS_ERRORS 5606                
+POS_CLUSTER 3286                
+POS_SIDER_404 5701                
+POS_PLUGIN_geoip_city_maxmind 5788                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150801233848 437 100112 0
+FirstTime 0
+LastTime 20150801193637
+LastUpdate 20150802020853 437 0 154 283 0
+TotalVisits 9                   
+TotalUnique 8                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 8                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 1 1 21922
+1 0 0 0 0 0 0
+2 0 0 0 1 1 21922
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 1 1 21922
+8 2 2 21922 0 0 0
+9 2 2 19461 1 1 21922
+10 1 1 21922 0 0 0
+11 1 1 21922 0 0 0
+12 0 0 0 0 0 0
+13 9 9 251496 0 0 0
+14 5 5 149047 2 2 18470
+15 11 11 287394 0 0 0
+16 35 35 603209 4 4 169761
+17 0 0 0 0 0 0
+18 0 0 0 39 39 1203315
+19 2 2 58924 35 35 962011
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 2 2 50289
+23 0 0 0 1 1 17918
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+ua 45 45 873469
+eu 18 18 459060
+gb 2 2 21922
+cz 2 2 58924
+unknown 1 1 21922
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+mj12bot 73 2143404 20150801190106 0
+bot[+:,\.\;\/\\-] 6 235629 20150801233848 0
+googlebot 3 72211 20150801223749 0
+no_user_agent 1 21922 20150801003656 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+php 1 21922 0 0
+html 9 175376 0 0
+woff 3 91920 0 0
+Unknown 55 1146079 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 4
+macosx 1
+winxp 19
+winnt 46
+linux 2
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 4
+msie6.0 1
+mozilla 2
+firefox39.0 3
+safari 62
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 6 6
+From1 0 0
+From2 1 1
+From3 2 2
+From4 59 59
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://freelance.ua/uk/user/imediasun/portfolio/15984-sajt-magazina-dverej-prestizh.html 1 1
+http://ilichevsk.spravker.ru/dveri-dvernye-bloki/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+103 1 0
+302 3 36286
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 4
+ua_kiev_13 0 35 0 0
+unknown 0 30 0 0
+gb_glasgow_v2 0 2 0 0
+ua_odessa_17 0 1 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 8
+95.133.238.224 35 35 603209 20150801162356
+185.26.182.30 18 18 459060 20150801151434
+188.163.69.209 6 6 173625 20150801133338
+91.123.156.213 3 3 77871 20150801132818
+91.105.238.22 2 2 21922 20150801080911
+93.170.80.194 2 2 58924 20150801193637
+83.142.111.166 1 1 18764 20150801092013
+192.151.151.202 1 1 21922 20150801110708
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20150801 68 68 1435297 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 5
+30s-2mn 1
+15mn-30mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/functions_ajax/get_floor 13 427 0 0
+/ 9 175376 5 2
+/functions_ajax/get_walls 8 873 0 1
+/functions_ajax/get_plintus 7 217 0 1
+/interior 6 699730 0 0
+/functions_filter/form_filter 4 12999 0 0
+/fonts/cleanvel.woff 3 91920 0 0
+/dveri/2 2 38676 0 0
+/catalog/index 2 52463 0 0
+/door/86 1 37324 1 0
+/pages/page/17 1 25033 0 0
+/dveri/2/64 1 30118 0 0
+/dveri/1 1 21005 0 0
+/dveri/2/65 1 40953 0 1
+/dveri/1/73 1 18764 1 1
+//door/86/0/1890/8/6/0/2720 1 37338 0 0
+/dveri/2/63 1 30654 0 0
+/dveri/3/72 1 17801 0 0
+/dveri/3 1 18696 0 0
+/door/87 1 37002 0 1
+/index.php 1 21922 1 1
+/pages/page/8 1 25309 0 1
+/auth_form 1 697 1 0
+END_SIDER
